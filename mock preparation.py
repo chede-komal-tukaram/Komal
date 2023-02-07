@@ -177,14 +177,14 @@
 # a = 10 
 # print(a,type(a))
 
-colors = ['red','green','blue','black','pink']
-print(colors,type (colors))
+# colors = ['red','green','blue','black','pink']
+# print(colors,type (colors))
 
 
-avalue = "welcome"
-avalue[0]
-print(colors[4])
+# avalue = "welcome"
+# avalue[0]
+# print(colors[4])
 
-print(colors)
+# print(colors)
 
 #---------------------------------------------------------------------------------------
