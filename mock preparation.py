@@ -188,3 +188,47 @@
 # print(colors)
 
 #---------------------------------------------------------------------------------------
+sampledictionary = {'key' :'value',1001 :'pune'}
+
+empdictionary = {
+                    101 :[101,'priya','98855'],
+                    102 :[102,'manoj','78965'],
+                    103 :[103,'saurabh','65432'],
+                    104 :[104,'savan','987654'],
+                    105 :[105,'komal','98765'],
+                    106 :[106,'namrata','678905']
+                    }
+
+print (empdictionary[103])          #[103, 'saurabh', '65432']
+print (empdictionary[105])              #[105, 'komal', '98765']      
+
+#if given key is not present in dictionary,will result in error
+#print (empdictionary[0])               #keyerror:0
+
+
+empdictionary = {
+                    'pari' :[101,'pari','98855'],
+                    'manoj' :[102,'manoj','78965'],
+                    'saurabh' :[103,'saurabh','65432'],
+                    'savan' :[104,'savan','987654'],
+                    'komal' :[105,'komal','98765'],
+                    'namrata' :[106,'namrata','678905'],
+                    'manoj':[108,'manoj','98654']
+                    }
+
+print (empdictionary['manoj'])          #[108, 'manoj', '98654']
+
+#print (empdictionary['Manoj'])          # keyerror ; manoj  (capital M)
+##dictionary is mutable ## value assignment is possible
+empdictionary['manoj']= [108,'manoj','2222222']
+print(empdictionary['manoj'])       #[108, 'manoj', '2222222']
+
+empdictionary['manoj'] = [109,'manik','33333']
+print (empdictionary['manoj'])
+
+print (empdictionary['manoj'][2])
+
+empdictionary['manoj'][2]='9999999'
+print(empdictionary['manoj'])
+
+#-----
