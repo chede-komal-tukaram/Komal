@@ -1393,7 +1393,121 @@ c3 = '''something
 # print(emp.company)      #IBM
 # #print(emp2.company)     #Employee' object has no attribute 'company'
 
-##================================================================================================
+##==============================================================================================
+'''__init__constructor'''
+#----------------------------------------------------------
+# class BillingCustomer:
+#     billId = 000        # class attribute
+#     address = 'Pune'    # class attribute
+#     billAmount = 0      # class attribute
 
-print("hello")
-print ("hi")
+#     def getBillingDetails(self):        # method
+#         return f"Bill ID : {self.billId}, Address :  {self.address}, Bill Amount : {self.billAmount}"
+
+# billObj = BillingCustomer()         ## Object creation
+# billInfo = billObj.getBillingDetails()      # method call by using object
+# print(billInfo)     #Bill ID : 0, Address :  Pune, Bill Amount :0
+
+##---------------------------------------------------------------------------------------------------
+# class BillingCustomer:
+#         billId = 000
+#         address = 'pune'
+#         billAmount =0
+
+#         def getBillingDetails(self):
+#             return f"bill ID : {self.billId},Address : {self.address},Bill Amount :{self.billAmount}"
+# billobj = BillingCustomer()
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)
+
+#----------------------------------------------------------
+# class BillingCustomer:
+#     billId = 000        # class attribute
+#     address = 'Pune'    # class attribute
+#     billAmount = 0      # class attribute
+
+#     def getBillingDetails(self):        # method
+#         return f"Bill ID : {self.billId}, Address :  {self.address}, Bill Amount : {self.billAmount}"
+
+# billObj = BillingCustomer()         ## Object creation
+# billInfo = billObj.getBillingDetails()      # method call by using object
+# print(billInfo)     #Bill ID : 0, Address :  Pune, Bill Amount :0
+
+##--------------------------------------------------------------------------------------------------
+# class BillingCustomer:
+#     billId = 000        # class attribute
+#     address = 'Pune'    # class attribute
+#     billAmount = 0      # class attribute
+
+#     def __init__(self) -> None:     #self : a class object which is being created
+#             self.billId = 111                       # Object attribute
+#             self.billAmount = 100                   # Object attribute
+#             self.isCorrectionRequired = False       # Object attribute
+#             print("I am constructor of BillingCustomer")
+
+#     #Automatically get execute when new object getting created and same object will be passed as arguement to self
+#     # init(self,someotherAttribute) having morethan one parameter along with self is a parameterized constructor
+#     def __init__(self, id, amount,correction) -> None:     #self : a class object which is being created
+#         self.billId = id                       # Object attribute
+#         self.billAmount = amount                   # Object attribute
+#         self.isCorrectionRequired = correction       # Object attribute
+#         print("I am constructor of BillingCustomer")
+    
+#     def correctionRequired(self):
+#         return self.isCorrectionRequired
+
+#     def getBillingDetails(self):        # method
+#         return f"Bill ID : {self.billId}, Address :  {self.address}, Bill Amount : {self.billAmount}"
+
+# ###billObj = BillingCustomer()    #__init__()     ## Object creation
+# ##TypeError: BillingCustomer.__init__() missing 3 required positional arguments: 'id', 'amount', and 'correction' ##
+
+# billObj = BillingCustomer(111, 200, True)    #__init__()     ## Object creation
+# info = billObj.getBillingDetails()  
+# print(info) #Bill ID : 111, Address :  Pune, Bill Amount : 200
+
+# billObj2 = BillingCustomer(222, 1000, True)    #__init__()     ## Object creation
+# info = billObj2.getBillingDetails()  
+# print(info) #Bill ID : 111, Address :  Pune, Bill Amount : 200
+
+# ##-----------------------------------------------------------------------------------------
+# # one class can have only one constructor, which will be called everytime when object is beign created.
+# # if someone write multiple constructors in same class then last one will be considered and previou one will be overwritten
+
+
+
+# def add(a, b, c=0):
+#     pass
+
+# add(10,39)     ## no change
+# add(10,39)     ## no change
+# add(10,39)     ## no change
+# add(10,39)     ## no change
+# add(10,39)     ## no change
+# add(10,39)     ## no change
+
+# add(10, 45, 67)
+
+
+# # # billObj = BillingCustomer(111, 200, True)      
+# # # billObj = BillingCustomer()   '
+
+
+
+# ### parameterized contructors
+
+# class Addition:
+#     firstNum = 0
+#     secondNum = 0
+
+#     def __init__(self, first, second) -> None:  
+#         self.firstNum = first
+#         self.secondNum = second
+
+#     def getResult(self) -> int:
+#         return self.firstNum  + self.secondNum
+
+# ##TypeError: Addition.__init__() missing 2 required positional arguments: 'first' and 'second'
+# ##objAdd = Addition()
+
+# objAdd = Addition(20)
