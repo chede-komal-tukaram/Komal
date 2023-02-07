@@ -765,7 +765,7 @@ c3 = '''something
 # print (atemp.get('newkey'))     #none
 # ###------------------------------------------------------------------------------------------------
 # #1 is true and 0 is False
-print (atemp[1])
+#print (atemp[1])
     #india
 
 
