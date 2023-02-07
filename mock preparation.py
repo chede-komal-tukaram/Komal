@@ -188,47 +188,162 @@
 # print(colors)
 
 #---------------------------------------------------------------------------------------
-sampledictionary = {'key' :'value',1001 :'pune'}
+# sampledictionary = {'key' :'value',1001 :'pune'}
 
-empdictionary = {
-                    101 :[101,'priya','98855'],
-                    102 :[102,'manoj','78965'],
-                    103 :[103,'saurabh','65432'],
-                    104 :[104,'savan','987654'],
-                    105 :[105,'komal','98765'],
-                    106 :[106,'namrata','678905']
-                    }
+# empdictionary = {
+#                     101 :[101,'priya','98855'],
+#                     102 :[102,'manoj','78965'],
+#                     103 :[103,'saurabh','65432'],
+#                     104 :[104,'savan','987654'],
+#                     105 :[105,'komal','98765'],
+#                     106 :[106,'namrata','678905']
+#                     }
 
-print (empdictionary[103])          #[103, 'saurabh', '65432']
-print (empdictionary[105])              #[105, 'komal', '98765']      
+# print (empdictionary[103])          #[103, 'saurabh', '65432']
+# print (empdictionary[105])              #[105, 'komal', '98765']      
 
-#if given key is not present in dictionary,will result in error
-#print (empdictionary[0])               #keyerror:0
+# if given key is not present in dictionary,will result in error
+# print (empdictionary[0])               #keyerror:0
 
 
-empdictionary = {
-                    'pari' :[101,'pari','98855'],
-                    'manoj' :[102,'manoj','78965'],
-                    'saurabh' :[103,'saurabh','65432'],
-                    'savan' :[104,'savan','987654'],
-                    'komal' :[105,'komal','98765'],
-                    'namrata' :[106,'namrata','678905'],
-                    'manoj':[108,'manoj','98654']
-                    }
+# empdictionary = {
+#                     'pari' :[101,'pari','98855'],
+#                     'manoj' :[102,'manoj','78965'],
+#                     'saurabh' :[103,'saurabh','65432'],
+#                     'savan' :[104,'savan','987654'],
+#                     'komal' :[105,'komal','98765'],
+#                     'namrata' :[106,'namrata','678905'],
+#                     'manoj':[108,'manoj','98654']
+#                     }
 
-print (empdictionary['manoj'])          #[108, 'manoj', '98654']
+# print (empdictionary['manoj'])          #[108, 'manoj', '98654']
 
-#print (empdictionary['Manoj'])          # keyerror ; manoj  (capital M)
-##dictionary is mutable ## value assignment is possible
-empdictionary['manoj']= [108,'manoj','2222222']
-print(empdictionary['manoj'])       #[108, 'manoj', '2222222']
+# print (empdictionary['Manoj'])          # keyerror ; manoj  (capital M)
+# #dictionary is mutable ## value assignment is possible
+# empdictionary['manoj']= [108,'manoj','2222222']
+# print(empdictionary['manoj'])       #[108, 'manoj', '2222222']
 
-empdictionary['manoj'] = [109,'manik','33333']
-print (empdictionary['manoj'])
+# empdictionary['manoj'] = [109,'manik','33333']
+# print (empdictionary['manoj'])
 
-print (empdictionary['manoj'][2])
+# print (empdictionary['manoj'][2])
 
-empdictionary['manoj'][2]='9999999'
-print(empdictionary['manoj'])
+# empdictionary['manoj'][2]='9999999'
+# print(empdictionary['manoj'])
 
-#-----
+# --------------------------------------------------------------------------------------------
+# atemp = {
+#             'id' :1001,
+#             'favcolor' :'white',
+#             'institute':'innovant',
+#             1 :'monika',
+#             True : "india"
+#         }
+# print(atemp['favcolor'])    # white
+# print (atemp['newkey'])     # keyerror:newkey
+
+# print (atemp.get('favcolor'))       # white
+
+# #if key not present then none..no error
+# print (atemp.get('newkey')) 
+# print(atemp[1])    #none
+# ##-------------------------------------------------------------------------------------------
+
+
+#loop statement
+# alist = [10,35,23,54,87,55,22]
+# for item in alist :
+#     print(item,end = ' - ')
+
+
+# alist = [10,35,23,54,87,55,22]
+# for item in alist :
+#     print(item,end = ' ')
+
+# alist = [10,35,23,54,87,55,22]
+# for item in alist :
+#     print(item,end = '\n')
+
+# list = [10,35,23,54,87,55,22]
+# for item in list:
+#     if item ==23:
+#         break
+#     print(item)
+
+# list = [10,35,23,54,87,55,22]
+# for item in list:
+#     if item ==23:
+#         continue
+#     print(item)
+
+
+# list = [1,2,3,4,5,6,8]
+# for item in list:
+#     if item ==7:
+#         pass
+#     print(list)
+
+
+# list = [10,20,30,40,50,60,43,22,11]
+# for item in list:
+#     if item ==50:
+#         pass
+#     print(item)
+# else:
+#     print("loop compleated execution")
+
+##-------------------------------------------------------------------------------------------
+# icounter = 0
+# while icounter <5:
+#     print("hello innovant")
+#     icounter = icounter +1
+
+# num = 10
+# icounter = 1
+# while icounter <=10:
+#     print(num * icounter)
+# icounter = icounter + 1
+
+##------------------------------------------------------
+alist = [10,20,30,40,50,60,70,80]
+# print(alist[0])
+# print(alist[1])
+# print(alist[2])
+# print(alist[3])
+
+# icounter = 0 
+# while icounter <=6:
+#     icounter<=len(alist) - 1
+#     print(alist[icounter])
+#     icounter = icounter +1
+
+# icounter = 0 
+# while icounter <=6:
+#     icounter <=len(alist)-1
+#     if alist [icounter]==60 or alist[icounter]==80:
+#         print(alist[icounter])
+#         icounter = icounter + 1
+
+
+aList = [10, 43, 90, 67, 60,35,45]
+###==========================================================================================
+
+# print(aList[0])
+# print(aList[1])
+# print(aList[2])
+# print(aList[3])
+# print(aList[4])
+# print(aList[5])
+
+# iCounter = 0
+# while iCounter <= 6:        #iCounter < 7  #iCounter <= len(aList) - 1  # iCounter < len(aList)
+#     print(aList[iCounter])
+#     iCounter = iCounter + 1 
+
+
+
+iCounter = 0
+while iCounter <= 6:        #iCounter < 7  #iCounter <= len(aList) - 1  # iCounter < len(aList)
+    if aList[iCounter] != 60 or aList[iCounter] != 90:
+        print(aList[iCounter])
+    iCounter = iCounter + 1 
