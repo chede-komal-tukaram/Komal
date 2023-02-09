@@ -305,7 +305,7 @@
 # icounter = icounter + 1
 
 ##------------------------------------------------------
-alist = [10,20,30,40,50,60,70,80]
+#alist = [10,20,30,40,50,60,70,80]
 # print(alist[0])
 # print(alist[1])
 # print(alist[2])
@@ -325,7 +325,7 @@ alist = [10,20,30,40,50,60,70,80]
 #         icounter = icounter + 1
 
 
-aList = [10, 43, 90, 67, 60,35,45]
+
 ###==========================================================================================
 
 # print(aList[0])
@@ -341,9 +341,150 @@ aList = [10, 43, 90, 67, 60,35,45]
 #     iCounter = iCounter + 1 
 
 
+# alist = [10, 43, 90, 67, 60, 35, 45]
+# iCounter = 0
+# while iCounter <= 6:        #iCounter < 7  #iCounter <= len(aList) - 1  # iCounter < len(aList)
+#     if aList[iCounter] != 60 and aList[iCounter] != 90:
+#         print(aList[iCounter])
+#     iCounter = iCounter + 1 
 
-iCounter = 0
-while iCounter <= 6:        #iCounter < 7  #iCounter <= len(aList) - 1  # iCounter < len(aList)
-    if aList[iCounter] != 60 or aList[iCounter] != 90:
-        print(aList[iCounter])
-    iCounter = iCounter + 1 
+#------------------------------------------------------------
+# aList = [10, 43, 90, 67, 60,35,45]
+
+# iCounter = 0
+# while iCounter <= 6:        #iCounter < 7  #iCounter <= len(aList) - 1  # iCounter < len(aList)
+#     if aList[iCounter] != 60 and aList[iCounter] != 90:
+#         print(aList[iCounter])
+#     iCounter = iCounter + 1 
+
+# alist = [10, 43, 90, 67, 60, 35, 45]
+# iCounter = 0
+# while iCounter <= 6:        #iCounter < 7  #iCounter <= len(aList) - 1  # iCounter < len(aList)
+#     if alist[icounter] != 90 and alist[icounter] != 60:        print(aList[iCounter])
+#     iCounter = iCounter + 1 
+
+####-------------------------------------------------------------------------------------------
+
+'''for loop'''
+#alist = [10, 43, 90, 67, 60, 35, 45]
+# for item in alist:
+#     print(item)
+
+# for item in alist:
+#     if item % 2 != 0:
+#         print(item)   
+
+# for item in alist:
+#     if item % 2 ==0:
+#         print("even number is :",item)
+#     else:
+#         print("odd number is : ", item)        
+
+#for index in range (10,20,2):
+ #           print(index)
+
+# alist = [11,64,76,98,45,43,12,23,34,45,56]
+
+# for item in alist:
+#     if item % 2 ==0:
+#         print("even number : ",item)
+#     else:
+#         print("odd number :",item)
+
+##=============================================================
+'''conditional expeassion'''
+# a = 20
+# if (a == 10):
+#     print("equals")
+# else:
+#     print("not equals")
+
+# a = 10
+# if a >10:
+#     print("greater")
+# if a>= 10:
+#     print("greater or equals")  
+# if a < 10 :
+#     print("lesser")
+# if a <=10:
+#     print("lesser or equals")  
+# if a == 10:
+#     print("equals")
+# else:
+#     print("god knows")
+
+##--------------------------------------------------------------------------------
+# a = 9
+# if a > 10:
+#     print("greater")
+# elif a >=10:
+#     print("greater or equal")
+# elif a == 10:
+#     print("equals")
+# else:
+#     print("god knows")
+
+# #------------------------------------------------------------------------
+
+# a = 10
+# else : (a != 10)
+#         print("equals")
+
+# a = 10 
+# if: (a != 10):
+#     print("equals")
+
+
+
+##-----------------------------------------------------------------------------------------------
+#'''input function'''
+# a = 10
+# b = 20
+# result = a + b
+# print(result)
+
+# a = input("enter first value : ")
+# b = input ("enter second number: ")
+# result = a + b
+# # print(result)
+
+##-------------------------------------------------------------------
+# '''factorial of number'''
+# #factorial of 10
+
+# counter = 10
+# result = 1
+# while counter > 1:
+#     result = result * counter
+#     counter = counter - 1
+# print ("factorial of number 10 : ",result)
+
+
+##---------------------------------------------------------------------
+'''operators'''
+
+#-------------------------------------------------------------------------
+'''custom functions'''
+
+
+##----------------------------------------------------
+'''exception'''
+
+
+#-------------------------------------------------------------------------
+'''file operation'''
+
+##-------------------------------------------------------------------
+'''functions'''
+
+##-----------------------------------------------------------
+'''use function of outside file'''
+
+##------------------------------------------------------
+'''class and object'''
+
+##--------------------------------------------------------
+'''class with multiple object'''
+
+##--------------------------------------------
+'''init constructor'''
