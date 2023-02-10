@@ -30,18 +30,14 @@
 
 #Q.5 how to find the sum of element in an array?
 
-
-
-
 #Q.7 how to find length of string?
-
+# avalue = "welcome to PYTHON"
+# print (f"length of avalue :{len(avalue)}")
 # string = "komalchedeshinde"
 # print (len(string))
 
-
+##========================================================================================================
 #Q.8 how to swap first and last element in the list?
-
-
 # list = [10,4,8,4,9,2,1]
 # size = len(list)
 
@@ -69,7 +65,7 @@
 ##================================================================================================
 #Q.10 how to remove the Nth occurance of a given word list?
 
-#Q.11 how to serch anelemenet in the arry?
+#Q.11 how to serch an elemenet in the arry?
 
 #Q.12 how to clear the list?
 
@@ -109,8 +105,8 @@ a = "innovant Academy"
 
 
 #Q.23 how to find length of a string?
-string = "innovantacademy"
-print(len(string))
+# string = "innovantacademy"
+# print(len(string))
 
 
 #Q.24 how to check if the string contain any special character?
