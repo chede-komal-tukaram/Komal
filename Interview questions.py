@@ -68,22 +68,29 @@
 #Q.11 how to serch an elemenet in the arry?
 
 #Q.12 how to clear the list?
+# list = [10,40,30,20,67,33]
 
+# print(f"list befor clear : {list}")
+# result = list.clear()
+# print(f"list after clear : {list} : result :{result}")
+
+# ##======================================================================================================
 #Q.13 how to reverse the list?
 #list =[1,2,3,4,5,6,7]
 #print (list[::-1])      # method 1
 
 #list.reverse()
 #print(list)                 # method 2
-
-
+##=====================================================================================================
 
 #Q.14 how to clone or copy the list?
 
 #Q.15 how to count occurance of an element in a list?
 
-
 #Q.17how to multiply all the numbers in the list?
+list = [10,40,30,20,67,33]
+
+
 
 #Q. 18 how to find the smallest and largest number in the list?
 
@@ -94,20 +101,17 @@
 
 
 #Q. 21 how to reverse world in a string?
-
-
-
-
-
-
+# # string = "weldone"
+# print(string[::-1])
 #Q.22 how to find a substring in a string?
-a = "innovant Academy"
-
+#a = "innovant Academy"
+#print(a[8:16])      ##academy
+##---------------------------------------------------------------------------------
 
 #Q.23 how to find length of a string?
 # string = "innovantacademy"
 # print(len(string))
-
+##-----------------------------------------------------------------------------------------------
 
 #Q.24 how to check if the string contain any special character?
 
