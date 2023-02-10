@@ -465,18 +465,24 @@
 #arithmatic operator
 
 #print (10 + 5)
-a = 10 
-b = 20
-a = a - b 
-#print(result)
-
-print("a = ",a,"b=",b)
+# a = 10 
+# b = 20
+# print("a < b",a <b)
 
 
 
+# a = 10
+# b = 20
+# print("a>=10 and b <= 20",a>=10 and b>= 20)
 
+# a = 10
+# b = 20
+# print("a>10 or b < 20",a>10 or b> 20)
 
-
+a = True
+b = False
+print("a not", not a )
+print("b not", not b)
 
 
 
