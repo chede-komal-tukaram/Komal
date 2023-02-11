@@ -1099,43 +1099,174 @@ c3 = '''something
 # alist = [13,54,66,88,96,34,65]
 # for item in alist:
 #     print(item)         ##whole list
-
-
-
-
 ##================================================================================================
-'''range function'''
-
-##====================================================================================================
-
 '''functions'''
-##print ()
-# input()
-#range9
-#len()
-#print ("hello innovant")
-#--------------------------------------------------------------------------------------------------
-## we can define functions once and can use multiple time 
-##def printInupper():
-#     print ("hello innovant".upper())     # hello innovant
-# ##-----------------------------------------------------------------------------------------------------
-# printInupper()          ##function call    ##trigger
-# printInupper()          ##function call    ##trigger
-# printInupper()          ##function call    ##trigger
-# printInupper()          ##function call    ##trigger
-# printInupper()          ##function call    ##trigger
-##---------------------------------------------------------------------------------------------
-## FUNCTIONS WITH PARAMETER
-# we can define functions once and can use multiple lines
-#def printInupper(inputstr):
- #   print(inputstr.upper())     #HELLO INNOVANT
-#==----------------------------------------------------------------------------------------------
-# def printInupper():
-#     printInUpper()
-# #--------------------------------------------------------------------------------------------------
-# def printInupper():
-#     print("hello world".upper())
-    
+#Inbuilt function # system/python defined
+# # print()
+# # input()
+# # range()
+# # len()
+
+# print("Hello Innovant")
+# print("Hello Innovant")
+# print("Hello Innovant")
+# print("Hello Innovant")
+# print("Hello Innovant")
+
+###====================================================
+## we can define function once and can use multiple times
+#def printInUpper():     ## Function defination      ## printInUpper is function name
+ #   print("Hello Innovant".upper())     ## Function body
+    ## we can have multiple lines in function body
+
+#-----------------------------------------------
+# printInUpper()      ## Function call # triggger 
+# printInUpper()      ## Function call # triggger 
+# printInUpper()      ## Function call # triggger 
+# printInUpper()      ## Function call # triggger 
+# printInUpper()      ## Function call # triggger 
+
+
+###===============================================================================
+
+# ## Function with Parameters
+# ## we can define function once and can use multiple times
+# def printInUpper(inputstr):     ## Function defination      ## printInUpper is function name
+#     print(inputstr.upper())     ## Function body
+#     ## we can have multiple lines in function body
+
+
+# ###printInUpper()      #TypeError: printInUpper() missing 1 required positional argument: 'inputstr'
+
+# printInUpper("hello Innovant")      #HELLO INNOVANT     ## Custom or user defined function call
+# print("hello Innovant")             #hello Innovant     ## inbuilt function call
+
+# printInUpper("hello world")
+# printInUpper("hello world")
+
+# ##
+# ###===============================================================================
+
+# ## Function with Parameters
+# ## we can define function once and can use multiple times
+# ## inputstr is parameter name and it can be any name 
+# def printInUpper(inputstr : str):     ## Function defination      ## printInUpper is function name
+#     print(inputstr.upper())     ## Function body
+#     ## we can have multiple lines in function body
+
+
+# ###printInUpper()      #TypeError: printInUpper() missing 1 required positional argument: 'inputstr'
+
+# printInUpper("hello Innovant")      #HELLO INNOVANT     ## Custom or user defined function call
+# print("hello Innovant")             #hello Innovant     ## inbuilt function call
+
+# printInUpper("hello world")
+# printInUpper("hello world")
+
+
+##============================================================================
+
+# a = 10
+# b = 20
+# result = a  + b 
+# print("Addition : ", result)
+
+#-------------------------------------------------------------------
+
+#def addition(a , b):
+ #   result = a  + b 
+  #  print(f"Addition of {a} and {b} :  {result}")
+
+
+# addition(10, 20)
+
+# # addition(40, 30)
+# result = addition(10 ,30)
+# print(result)       ##None
+
+# temp = "welcome"
+#  ## upper do not print result it simply pass outside which can be stored in variabble and 
+#  ## then we can use it however we want
+# result = temp.upper()      
+# print("upper wala result : ", result)
+
+
+###----------------------------------------------------
+
+### 
+
+#def additionWithReturn(a , b):
+ #   result = a  + b 
+  #  return result           ## return : keyword, send output or value outside of function
+   # print(f"result after return : {result}")  ## this line will never execute coz it is after return statement
+#
+#resultoutside = additionWithReturn(10, 20)
+#print(resultoutside)
+
+## Function can be with or without return statement
+## return will send output or result outside
+## on execution of return statement, function body execution will break
+## function execution will stop on return 
+## if no return statement in function then function will retun None by default
+
+
+
+###===================================================================
+
+# def isAdult(age : int):
+#     if(age > 18):
+#         return True
+#     else:
+#         return False
+# #---------------------------------------------------------
+# print(isAdult(20))      #True
+# #---------------------------------------------------------
+
+# result = isAdult(17)    # reullt will be populated with False
+# print(result)           # False
+# #---------------------------------------------------------
+
+# if(isAdult(22)):
+#     print("You can travel")
+# else:
+#     print("You can not travel")
+# #---------------------------------------------------------
+
+# def isAdultInString(age : int):
+#     if(age > 18):
+#         return "Adult"
+#     else:
+#         return "Minor"
+
+# result = isAdultInString(16)
+# print(result)
+
+
+###===============================================================
+#def printInUpper(inputstr):     ## Function defination ##inputstr is parameter name      ## printInUpper is function name
+ #   print(inputstr.upper())     ## Function body
+  #  ## we can have multiple lines in function body
+
+
+#printInUpper()  #TypeError: printInUpper() missing 1 required positional argument: 'inputstr'
+
+#-==============================================================================
+
+## made inputstr paramter as default or optional parameter 
+#def printInUpper(inputstr = "Hello Innovant"):     ## Function defination ##inputstr is parameter name      ## printInUpper is function name
+   # print(inputstr.upper())     ## Function body
+    ## we can have multiple lines in function body
+
+#printInUpper()      #HELLO INNOVANT     # default value will be used
+#printInUpper('welcome')     #WELCOME    # user provided value will be used
+
+
+##=================================================================
+
+#print("hello")          # end = '\n'
+#print("hello", end=' ') # end= ' '    ## end is optional or default paramter , default value is '\n'
+
+
 ##==================================================================================================
 '''factorial of  number'''
 # counter =5
@@ -1170,38 +1301,118 @@ c3 = '''something
 
 ##==================================================================================================
 '''exceptions'''
-# print("hello")
+#print("hello")
+##Print("Hello world") ## syntax error   #NameError: name 'Print' is not defined
 
-# print ("hello world")
-# a = [10,4,5,20,89]
+# program will terminate on syntax error
 
-# print (a [3])
-# print (a[5])        #IndexError: list index out of range
+# a = [10, 4, 5,20, 89]
+# print(a[3])
+# print(a[3])## syntax is corrent
+#print(a[5])    ## syntax is corrent  #IndexError: list index out of range
 
-#runtime exception : error or exception is occured even though syntax is correct
+# # # Runtime exception : error or exception is occurred even though syntax is correct
 
-##program will terminate in case of syntax error  or runtime error.
-##-------------------------------------------------------------------------------------------------
+# # program will terminate in case of syntax error or runtime excpetion
+# ##------------------------------------------------------------------------
+# a = [10, 4, 5,20, 89]
+# try:
+#     print(a[3])
+#     print(a[2])## syntax is corrent
+#     print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+#     print(a[0])   ## will not execute
+#     print(a[-1])   ## will not execute
+# except: ## except block will execute on runtime exception or syntax error
+#     print("Something went wrong")
+
+# print("program is completed...")
+
+# ##------------------------------------------------------------------------
+#a = [10, 4, 5,20, 89]
+# try:
+#     print(a[3])
+#     print(a[2])## syntax is corrent
+#     print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+#     print(a[0])   ## will not execute
+#     print(a[-1])   ## will not execute
+# except: ## except block will execute on runtime exception or syntax error
+#     print("Something is wrong")
+
+# print("program is completed...")
+
+# ##------------------------------------------------------------------------
+# a = [10, 4, 5,20, 89]
+# try:
+#     print(a[3])
+#     print(a[2])## syntax is corrent
+#     print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+#     print(a[0])   ## will not execute
+#     print(a[-1])   ## will not execute
+# except Exception as ex: ## except block will execute on runtime exception or syntax error
+#     print("Something went wrong", ex)
+
+# print("program is completed...")
+##------------------------------------------------------------------------
+
+# #Exception is class, Common base class for all exceptions.
+
+# #------------------------------------------------------------------------
+# a = [10, 4, 5,20, 89]
+# try:
+#     print(a[3])
+#     print(a[2])## syntax is corrent
+#     print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+#     print(a[0])   ## will not execute
+#     print(a[-1])   ## will not execute
+# except Exception as ex: ## except block will execute on runtime exception or syntax error
+#     print("Something went wrong", ex)
+# except IndexError as ie:
+#     print("Given index not present", ie)
 
 
+# print("program is completed...")
+# #------------------------------------------------------------------------
+# # Only one except will get executed.. then sequence is important
+# # if exception is handled in most matching block then another except block will not execute
+# #Exception is parent for all exceptions and capable to handle all type of excetions like IndexError, NameError, etc
+# # Hence we should all the time specify Exception block at last
+
+
+# try:    
+#     inputNumber = input("Enter number to divide to 100 : ")
+    
+#     result = 100 / int(inputNumber)
+#     print("Result : ", result)
+
+# except ZeroDivisionError as z: ##(Sorry, Dubara nahi karenge, if this excepttion doesnt match then next one will be checked)
+#     print("YOu can not enter 0 as input: ",z)
+# except ValueError as v:
+#     print("Input value is invalid ", v)
+# except Exception as ex:       ##(chappal)
+#     print("Error Occured : ", ex)
+
+###==============================================================================
+
+# try:    
+#     inputNumber = input("Enter number to divide to 100 : ")
+    
+#     result = 100 / int(inputNumber)
+#     print("Result : ", result)
+
+# except ZeroDivisionError as z: ##(Sorry, Dubara nahi karenge, if this excepttion doesnt match then next one will be checked)
+#     print("YOu can not enter 0 as input: ",z)
+# except ValueError as v:
+#     print("Input value is invalid ", v)
+# except Exception as ex:       ##(chappal)
+#     print("Error Occured : ", ex)
+# finally:        # you can write any code which you wish to execute in exception or without exception
+#     print("Program completed successfully...")  ## I execute all the time
 
 ##=================================================================================================
-'''try and except statement'''
 
-##=============================================================================================
 
 '''custom functions'''                              ##pending
-# def isAdultInstring(age : int):
-#     if (age >18):
-#         return "Adult"
-#     else:
-#         return "Minor"
 
-# def isAdult (age : int):
-#     if (age >18):
-#         return True
-#     else:
-#         return False
 
 
 
@@ -1311,10 +1522,10 @@ c3 = '''something
 #     print("file content : ",content)
 # except:
 #     print("something went wrong")
-# #finally:
-#  #   filevariable.close()
+##finally:
+ #  filevariable.close()
 
-##=================================================================================================
+#=================================================================================================
 '''clasess and object'''
 # empid =1001
 # name = 'komal'
