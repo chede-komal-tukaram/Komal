@@ -479,20 +479,146 @@
 # b = 20
 # print("a>10 or b < 20",a>10 or b> 20)
 
-a = True
-b = False
-print("a not", not a )
-print("b not", not b)
+# a = True
+# b = False
+# print("a not", not a )
+# print("b not", not b)
 
 
 
 #-------------------------------------------------------------------------
 '''custom functions'''
 
+def isAdultInString(age : int):
+    if(age > 18):
+        return "Adult"
+    else:
+        return "Minor"
+
+
+def isAdult(age : int):
+    if(age > 18):
+        return True
+    else:
+        return False
+
+
+
 
 ##----------------------------------------------------
 '''exception'''
+print("hello")
+##Print("Hello world") ## syntax error   #NameError: name 'Print' is not defined
 
+# program will terminate on syntax error
+
+# a = [10, 4, 5,20, 89]
+# print(a[3])
+# print(a[3])## syntax is corrent
+#print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+
+# # # Runtime exception : error or exception is occurred even though syntax is correct
+
+# # program will terminate in case of syntax error or runtime excpetion
+# ##------------------------------------------------------------------------
+# a = [10, 4, 5,20, 89]
+# try:
+#     print(a[3])
+#     print(a[2])## syntax is corrent
+#     print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+#     print(a[0])   ## will not execute
+#     print(a[-1])   ## will not execute
+# except: ## except block will execute on runtime exception or syntax error
+#     print("Something went wrong")
+
+# print("program is completed...")
+##------------------------------------------------------------------------
+# ##------------------------------------------------------------------------
+a = [10, 4, 5,20, 89]
+# try:
+#     print(a[3])
+#     print(a[2])## syntax is corrent
+#     print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+#     print(a[0])   ## will not execute
+#     print(a[-1])   ## will not execute
+# except: ## except block will execute on runtime exception or syntax error
+#     print("Something is wrong")
+
+# print("program is completed...")
+# #------------------------------------------------------------------------
+# ##------------------------------------------------------------------------
+# a = [10, 4, 5,20, 89]
+# try:
+#     print(a[3])
+#     print(a[2])## syntax is corrent
+#     print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+#     print(a[0])   ## will not execute
+#     print(a[-1])   ## will not execute
+# except Exception as ex: ## except block will execute on runtime exception or syntax error
+#     print("Something went wrong", ex)
+
+# print("program is completed...")
+##------------------------------------------------------------------------
+
+# #Exception is class, Common base class for all exceptions.
+
+# #------------------------------------------------------------------------
+# a = [10, 4, 5,20, 89]
+# try:
+#     print(a[3])
+#     print(a[2])## syntax is corrent
+#     print(a[5])    ## syntax is corrent  #IndexError: list index out of range
+#     print(a[0])   ## will not execute
+#     print(a[-1])   ## will not execute
+# except Exception as ex: ## except block will execute on runtime exception or syntax error
+#     print("Something went wrong", ex)
+# except IndexError as ie:
+#     print("Given index not present", ie)
+
+
+# print("program is completed...")
+# #------------------------------------------------------------------------
+# # Only one except will get executed.. then sequence is important
+# # if exception is handled in most matching block then another except block will not execute
+# #Exception is parent for all exceptions and capable to handle all type of excetions like IndexError, NameError, etc
+# # Hence we should all the time specify Exception block at last
+
+
+# try:    
+#     inputNumber = input("Enter number to divide to 100 : ")
+    
+#     result = 100 / int(inputNumber)
+#     print("Result : ", result)
+
+# except ZeroDivisionError as z: ##(Sorry, Dubara nahi karenge, if this excepttion doesnt match then next one will be checked)
+#     print("YOu can not enter 0 as input: ",z)
+# except ValueError as v:
+#     print("Input value is invalid ", v)
+# except Exception as ex:       ##(chappal)
+#     print("Error Occured : ", ex)
+
+
+
+
+
+###==============================================================================
+
+#
+
+# try:    
+#     inputNumber = input("Enter number to divide to 100 : ")
+    
+#     result = 100 / int(inputNumber)
+#     print("Result : ", result)
+
+# except ZeroDivisionError as z: ##(Sorry, Dubara nahi karenge, if this excepttion doesnt match then next one will be checked)
+#     print("YOu can not enter 0 as input: ",z)
+# except ValueError as v:
+#     print("Input value is invalid ", v)
+# except Exception as ex:       ##(chappal)
+#     print("Error Occured : ", ex)
+# finally:        # you can write any code which you wish to execute in exception or without exception
+#     print("Program completed successfully...")  ## I execute all the time
 
 #-------------------------------------------------------------------------
 '''file operation'''
@@ -502,7 +628,16 @@ print("b not", not b)
 
 ##-----------------------------------------------------------
 '''use function of outside file'''
+import CustomFunctions      ## importing user defined module
+# import os                   ## importing inbuilt module
+# import math                 ## importing inbuilt module
+# import playsound            ## importing external module
 
+result = CustomFunctions.isAdult(26)
+print(result)   #True
+
+result = CustomFunctions.isAdultInString(26)
+print(result)   #Adult
 ##------------------------------------------------------
 '''class and object'''
 
