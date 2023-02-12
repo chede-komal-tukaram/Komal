@@ -464,7 +464,7 @@
 '''operators'''
 #arithmatic operator
 
-#print (10 + 5)
+# print (10 + 5)
 # a = 10 
 # b = 20
 # print("a < b",a <b)
@@ -475,7 +475,7 @@
 # b = 20
 # print("a>=10 and b <= 20",a>=10 and b>= 20)
 
-# a = 10
+# # a = 10
 # b = 20
 # print("a>10 or b < 20",a>10 or b> 20)
 
@@ -488,19 +488,6 @@
 
 #-------------------------------------------------------------------------
 '''custom functions'''
-
-def isAdultInString(age : int):
-    if(age > 18):
-        return "Adult"
-    else:
-        return "Minor"
-
-
-def isAdult(age : int):
-    if(age > 18):
-        return True
-    else:
-        return False
 
 
 
@@ -628,17 +615,17 @@ a = [10, 4, 5,20, 89]
 
 ##-----------------------------------------------------------
 '''use function of outside file'''
-import CustomFunctions      ## importing user defined module
+#import CustomFunctions      ## importing user defined module
 # import os                   ## importing inbuilt module
 # import math                 ## importing inbuilt module
 # import playsound            ## importing external module
 
-result = CustomFunctions.isAdult(26)
-print(result)   #True
+# result = CustomFunctions.isAdult(26)
+# print(result)   #True
 
-result = CustomFunctions.isAdultInString(26)
-print(result)   #Adult
-##------------------------------------------------------
+# result = CustomFunctions.isAdultInString(26)
+# print(result)   #Adult
+# ##------------------------------------------------------
 '''class and object'''
 
 ##--------------------------------------------------------
@@ -646,3 +633,106 @@ print(result)   #Adult
 
 ##--------------------------------------------
 '''init constructor'''
+
+# class BillingCustomer:
+#     billId = 000
+#     address = 'pune'
+#     billAmount = 0 
+
+#     def getBillingDetails(self):
+#         return f" Bill ID : {self.billId},address : {self.address},bill Amount :{self.billAmount}"
+# billobj = BillingCustomer()
+# billInfo =billobj.getBillingDetails()
+# print(billInfo)
+##==----------------------------------------------------------------------------------------------------
+#constructor
+# class BillingCustomer:
+#     billId = 000
+#     address = 'karmala'
+#     billAmount = 0
+#     def __init__(self):
+#         print("i am constructor of BillingCustomer")
+
+#     def getBillingDetails(self):
+#         return f"Bill ID :{self.billId},address :{self.address},billAmount : {self.billAmount}"
+# billobj = BillingCustomer()
+# billobj.billId =111
+# billobj.billAmount = 100
+# billInfo = billobj.getBillingDetails()
+
+# print(billInfo)
+
+# billobj2 = BillingCustomer()
+# billobj2.billId = 111
+# billobj2.billAmount = 100
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)
+##------------------------------------------------------------------------------------------------
+# ##constructors
+# class BillingCustomer:
+#     billId = 111
+#     address ='pune'
+#     billAmount =100
+
+#     def __init__(self):
+#     self.billId =222
+#     self.billAmount =200
+#     self.isCorrectionRequired= False
+# print("I am constructor of BillingCustomer")
+#         def
+
+
+##===========================================================================================
+'''constructor'''
+
+# class BillingCustomer:
+#     billId = 000
+#     address = 'osmanabad'
+#     billAmount = 0
+#     def getBillingDetails(self):
+#         return f"Bill ID :{self.billId},Address :{self.address}, billamount :{self.billAmount}"
+# billobj = BillingCustomer()
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)
+##------------------------------------------------------------------------------------------------------
+'''CONSTRUCTOR
+'''
+# class BillingCustomer:
+#     billId = 111
+#     address = 'ahemadnagar'
+#     billAmount = 100
+
+#     def __init__(self):
+#         print("I am constructor of BillingCustomer")
+
+#     def getBillingDetails(self):
+#         return f" billid : {self.billId},address : {self.address},billAmount : {self.billAmount}"
+    
+# billobj = BillingCustomer()
+# billobj.billId = 222
+# billobj.billAmount = 200
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)
+
+
+# billobj2 = BillingCustomer()
+# billobj2.billId = 222
+# billobj2.billAmount = 200
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)
+
+#-----------------------------------------------------------------------------------------------------------
+class BilingCustomer:
+    billId =000
+    address ="pune"
+    billAmount =0
+    def __init__(self):
+        self.billId =555
+        self.billAmount = 0000
+        self.isCorrectionRequired =False
+print("Iam shinde komal sandip")
+def getBillingDetails(self):
+    return f"Bill ID : {self.billId},address : {self.address},bill amount :{self.billAmount}"
+billobj = BillingCustomer()
+billInfo = billobj.getBillingDetails()
+print(billInfo)

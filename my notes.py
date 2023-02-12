@@ -1607,17 +1607,17 @@ c3 = '''something
 ##==============================================================================================
 '''__init__constructor'''
 #----------------------------------------------------------
-# class BillingCustomer:
-#     billId = 000        # class attribute
-#     address = 'Pune'    # class attribute
-#     billAmount = 0      # class attribute
+class BillingCustomer:
+    billId = 000        # class attribute
+    address = 'Pune'    # class attribute
+    billAmount = 0      # class attribute
 
-#     def getBillingDetails(self):        # method
-#         return f"Bill ID : {self.billId}, Address :  {self.address}, Bill Amount : {self.billAmount}"
+    def getBillingDetails(self):        # method
+        return f"Bill ID : {self.billId}, Address :  {self.address}, Bill Amount : {self.billAmount}"
 
-# billObj = BillingCustomer()         ## Object creation
-# billInfo = billObj.getBillingDetails()      # method call by using object
-# print(billInfo)     #Bill ID : 0, Address :  Pune, Bill Amount :0
+billObj = BillingCustomer()         ## Object creation
+billInfo = billObj.getBillingDetails()      # method call by using object
+print(billInfo)     #Bill ID : 0, Address :  Pune, Bill Amount :0
 
 ##---------------------------------------------------------------------------------------------------
 # class BillingCustomer:
