@@ -494,7 +494,7 @@
 
 ##----------------------------------------------------
 '''exception'''
-print("hello")
+#print("hello")
 ##Print("Hello world") ## syntax error   #NameError: name 'Print' is not defined
 
 # program will terminate on syntax error
@@ -521,7 +521,7 @@ print("hello")
 # print("program is completed...")
 ##------------------------------------------------------------------------
 # ##------------------------------------------------------------------------
-a = [10, 4, 5,20, 89]
+#a = [10, 4, 5,20, 89]
 # try:
 #     print(a[3])
 #     print(a[2])## syntax is corrent
@@ -722,17 +722,179 @@ a = [10, 4, 5,20, 89]
 # print(billInfo)
 
 #-----------------------------------------------------------------------------------------------------------
-class BilingCustomer:
-    billId =000
-    address ="pune"
-    billAmount =0
-    def __init__(self):
-        self.billId =555
-        self.billAmount = 0000
-        self.isCorrectionRequired =False
-print("Iam shinde komal sandip")
-def getBillingDetails(self):
-    return f"Bill ID : {self.billId},address : {self.address},bill amount :{self.billAmount}"
-billobj = BillingCustomer()
-billInfo = billobj.getBillingDetails()
-print(billInfo)
+# class BilingCustomer:
+#     billId =000
+#     address ="pune"
+#     billAmount =000
+
+#     def __init__(self):
+#         self.billId =555
+#         self.billAmount = 0000
+#         self.isCorrectionRequired =False
+#         print("Iam shinde komal sandip")
+
+# def getBillingDetails(self):
+#     return f"Bill ID : {self.billId},address : {self.address},bill amount :{self.billAmount}"
+
+# billobj=BillingCustomer()
+# billInfo = billobj.getBillingDetails()
+
+# print(billInfo)
+
+# billobj2 =BillingCustomer()
+# billInfo = billobj2.getBillingCustomer()
+# print(billInfo)
+
+# billobj.__init__()
+# billobj2.__init__()
+
+
+
+
+# class BillingCustomer:
+#     billId = 000        # class attribute
+#     address = 'Pune'    # class attribute
+#     billAmount = 0      # class attribute
+
+#     #Automatically get execute when new object getting created and same object will be passed as arguement to self
+#     # init(self) having only one parameter which is self is a default constructor
+#     def __init__(self) -> None:     #self : a class object which is being created
+#         self.billId = 111                       # Object attribute
+#         self.billAmount = 100                   # Object attribute
+#         self.isCorrectionRequired = False       # Object attribute
+#         print("I am constructor of BillingCustomer")
+
+#     def getBillingDetails(self):        # method
+#         return f"Bill ID : {self.billId}, Address :  {self.address}, Bill Amount : {self.billAmount}"
+
+# billObj = BillingCustomer()         ## Object creation
+# billInfo = billObj.getBillingDetails()      # method call by using object
+# print(billInfo)     #Bill ID : 111, Address :  Pune, Bill Amount : 100
+
+# billObj2 = BillingCustomer()         ## Object creation
+# billInfo = billObj2.getBillingDetails()      # method call by using object
+# print(billInfo)     #Bill ID : 111, Address :  Pune, Bill Amount : 100
+
+# billObj.__init__()     ## Manual way to call cunstructor
+# billObj2.__init__()     ## Manual way to call cunstructor
+
+
+##=======================================================
+# '''class and object'''
+# empid = 1001
+# name = 'komal'
+# address = 'pune'
+# salary = '100000'
+
+# def getEmployeeDetails():
+#     print(f"Emp id = {empid},name : {name},address: {address},salary :{salary}")
+# getEmployeeDetails()
+
+# ##--------------------------------------------------------------------------------
+# '''class creation'''
+# class Employee:
+#     empid = 1001
+#     name = 'komal'
+#     address = 'karmala'
+#     salary = '50000'
+
+#     def getCompany():
+#         print("innovant")
+#         Employee.getCompany()
+#         print(Employee.salary)
+
+# ##---------------------------------------------------------------------------
+# '''object creation'''
+# emp = Employee()
+# Employee.getEmployeeDetails(emp)
+# Employee.getCompany()
+
+##------------------------------------------------------------------
+'''class with multiple object '''
+# class Employee:
+#     empid = 1001
+#     name = 'komal'
+#     address = 'pune'
+#     salary = '50000'
+    
+#     def getInfo(self):
+#         print (f"emp id ={self.empid},name : {self.name},address:{self.address},salary:{self.salary}")
+
+#     def updateInfo(selfie,empid,name,company):
+#         selfie.empid = empid
+#         selfie.name = name
+#         selfie.company = company
+
+# emp = Employee()
+# emp2 = Employee()
+# emp.getInfo()
+# emp2.getInfo()
+# Employee.updateInfo(emp,2002,"kalyani","IBM")
+
+# emp.getInfo()
+# emp2.getInfo()
+
+# print(emp.company)
+# print(emp2.company)
+
+##--------------------------------------------------------------------------
+'''USE THE FUNCTION OUTSIDE FILE'''
+# import CustomFunctions
+
+# #import math
+
+# result = CustomFunctions.isAdult(26)
+# print(result)
+
+# result = CustomFunctions.isAdultInstring(26)
+# print (result)
+
+
+##---------------------------------------------------------------------------
+'''INPUT FUNCTIONS'''
+
+# a = 10
+# b = 20
+# result = a +b
+# print(result)
+
+# a = input("Enter first number :")
+# b = input("Enter second number :")
+# result = a +b 
+# print(result)
+
+
+
+
+# a = 10 
+# b = 20
+# result = a + b
+# print(result)
+
+# #=============================================
+# ## input function always accept input values as string 
+
+# a = input("Enter first number : ") 
+# b = input("Enter second number: ") 
+# result = a + b
+# print(result)
+
+# #--------------------------------------------
+
+# a = input("Enter first number : ") 
+# b = input("Enter second number: ") 
+# result = int(a) + int(b)    ### typecasting
+# print(result)
+# ##--------------------------------------------
+
+# a = int(input("Enter first number : ")) ### typecasting
+# b = int(input("Enter second number: ")) ### typecasting
+# result = a + b    
+# print(result)
+# ##--------------------------------------------
+# a = int(input("Enter first number : ")) ### typecasting
+# b = int(input("Enter second number: ")) ### typecasting
+# print(int(a) + int(b) )
+
+# ##--------------------------------------------
+# print(int(input("Enter first number : ")) + int(input("Enter second number: ")))

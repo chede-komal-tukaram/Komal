@@ -1,56 +1,56 @@
-#print ("hi")
-class BillingCustomer:
-        billId = 000
-        address = 'pune'
-        billAmount =0
-
-        def getBillingDetails(self):
-            return f"bill ID : {self.billId},Address : {self.address},Bill Amount :{self.billAmount}"
-billobj = BillingCustomer()
-billInfo = billobj.getBillingDetails()
-print(billInfo)
-
-#----------------------------------------------------------
+# #print ("hi")
 # class BillingCustomer:
-#     billId = 000        # class attribute
-#     address = 'Pune'    # class attribute
-#     billAmount = 0      # class attribute
+#         billId = 000
+#         address = 'pune'
+#         billAmount =0
 
-#     def getBillingDetails(self):        # method
-#         return f"Bill ID : {self.billId}, Address :  {self.address}, Bill Amount : {self.billAmount}"
+#         def getBillingDetails(self):
+#             return f"bill ID : {self.billId},Address : {self.address},Bill Amount :{self.billAmount}"
+# billobj = BillingCustomer()
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)
 
-# billObj = BillingCustomer()         ## Object creation
-# billInfo = billObj.getBillingDetails()      # method call by using object
-# print(billInfo)     #Bill ID : 0, Address :  Pune, Bill Amount :0
+# #----------------------------------------------------------
+# # class BillingCustomer:
+# #     billId = 000        # class attribute
+# #     address = 'Pune'    # class attribute
+# #     billAmount = 0      # class attribute
+
+# #     def getBillingDetails(self):        # method
+# #         return f"Bill ID : {self.billId}, Address :  {self.address}, Bill Amount : {self.billAmount}"
+
+# # billObj = BillingCustomer()         ## Object creation
+# # billInfo = billObj.getBillingDetails()      # method call by using object
+# # print(billInfo)     #Bill ID : 0, Address :  Pune, Bill Amount :0
 
 
-##=====================================================================================================
-#constructors 
+# ##=====================================================================================================
+# #constructors 
 
-class billingCustomer:
-      billId = 000
-      address = 'pune'
-      billAmount = 0
+# class billingCustomer:
+#       billId = 000
+#       address = 'pune'
+#       billAmount = 0
 
-      def __init__(self):
-            print("i am a constructor of billingcustomer")
+#       def __init__(self):
+#             print("i am a constructor of billingcustomer")
 
-      def getbillingDetails(self):
-            return f" Bill Id :{self.billId},address :{self.address},billAmount :{self.billAmount}"
+#       def getbillingDetails(self):
+#             return f" Bill Id :{self.billId},address :{self.address},billAmount :{self.billAmount}"
       
-billobj = BillingCustomer()
-billobj . billId = 100
-billobj.billAmount = 100
-billInfo =billobj.getBillingDetails()
-print(billInfo)
+# billobj = BillingCustomer()
+# billobj . billId = 100
+# billobj.billAmount = 100
+# billInfo =billobj.getBillingDetails()
+# print(billInfo)
 
-billobj2 = BillingCustomer()
-billobj2 = billId =111
-billobj . billAmount = 100
-billInfo = billobj.getBillingDetails()
-print(billInfo)
+# billobj2 = BillingCustomer()
+# billobj2 = billId =111
+# billobj . billAmount = 100
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)
 
 
 
-##---------------------------------------------------------------------------------------------------
-#constructor 
+# ##---------------------------------------------------------------------------------------------------
+# #constructor 
