@@ -853,15 +853,15 @@
 ##---------------------------------------------------------------------------
 '''INPUT FUNCTIONS'''
 
-a = 10
-b = 20
-result = a +b
-print(result)
+# a = 10
+# b = 20
+# result = a +b
+# print(result)
 
-a = input("Enter first number :")
-b = input("Enter second number :")
-result = a +b 
-print(result)
+# a = input("Enter first number :")
+# b = input("Enter second number :")
+# result = a +b 
+# print(result)
 
 
 
@@ -899,6 +899,9 @@ print(result)
 # ##--------------------------------------------
 # print(int(input("Enter first number : ")) + int(input("Enter second number: ")))
 
-print("hi")
-print("hello innovant")
-print('hello world')
+# print("hi")
+# print("hello innovant")
+# print('hello world')
+
+
+#===============================================================================
