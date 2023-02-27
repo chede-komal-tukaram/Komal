@@ -189,18 +189,31 @@ avalue = 23279854
 
 ##================================================================================================= "i7n3no8va9nt4"
 
-i = "i7n3no8va9nt4"
-reverse = ''
-while (len(i)>0):
-    if (len(i)>0):
-        a = i [-1]
-        i = i [:-1]
-        reverse +=a
-        return reverse
-        "i7n3no8va9nt4" = input ('enter the string :')
-reverse = find.reverse(string)  
-print (' reverse string is',reverse)  
+# i = "i7n3no8va9nt4"
+# reverse = ''
+# while (len(i)>0):
+#     if (len(i)>0):
+#         a = i [-1]
+#         i = i [:-1]
+#         reverse +=a
+#         return reverse
+#         "i7n3no8va9nt4" = input ('enter the string :')
+# reverse = find.reverse(string)  
+# print (' reverse string is',reverse)  
 
 
-##=================================================================================================
-============================================================================
+##=============================================================================================
+
+
+'''from youtube questions'''
+
+#Q1. write a program to find sum of element in a list?
+#create a list
+# list = [1,2,4,6,56,43,34]
+# sum = 0
+# for i in list:
+#     sum = sum + i
+#     print("sum of list is :",sum)
+# ================================================================================
+# Q2
+        

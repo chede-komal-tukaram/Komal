@@ -384,16 +384,16 @@ c3 = '''something
 """input function()"""          #remaining
 #a = 10 
 #b = 20 
-# result = a + b
-# print (result)      # 30
+#result = a + b
+#print (result)      # 30
 
-# # input function always accept input values as string
-# a = input("enter first number :")
-# b = input("enter second number :") 
-# result = a + b 
-# print (result)      # 30
+# input function always accept input values as string
+#a = int(input("enter first number :"))
+#b = int(input("enter second number :") )
+#result = a + b 
+#print (result)      # 30
 
-# #---------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
 # a = input ("enter first number :")
 # b = input (" enter second number :")
 # result = int(a) + int (b)
@@ -405,13 +405,13 @@ c3 = '''something
 # print (result)
 
 # #-----------------------------------------------------------------------------------------------
-#a = int (input("enter first number:"))
-#b = int (input ("enter second number :"))
-#print (int(a) + int(b))
+# a = int (input("enter first number:"))
+# b = int (input ("enter second number :"))
+# print (int(a) + int(b))
 
-#------------------------------------------------------------------------------------------------
-#print (int(input("enter first number :")))
-##=======================================================================================================
+# ------------------------------------------------------------------------------------------------
+# print (int(input("enter first number :")))
+# #=======================================================================================================
 """string slicing"""                        #done
 
 #avalue = "welcome"
@@ -468,7 +468,6 @@ c3 = '''something
 
 
 
-
 #===================================================================================================
 """escape character"""
 
@@ -480,8 +479,8 @@ c3 = '''something
 #()----round bracket
 #[]----square bracket
 
-#a = 10
-#print (a,type(a))       #10 class integer
+# a = 10
+# print (a,type(a))       #10 class integer
 
 # colors = ['red', 'Green','Blue','Black','Pink']
 
@@ -490,11 +489,11 @@ c3 = '''something
 # avalue[0]
 
 # print(colors[0])
-# print(colors[4])
+# print(colors[4])                            
 # print(colors[-1])
 # print(colors[3])
 
-# print (colors[0:3])
+#print (colors[0:3])
 # #=------------------------------------------------------------------------------------------------------
 # colors = ['Red' ,'Green','Blue','Black','Pink']
 # newitem = 'white'
@@ -1506,7 +1505,7 @@ c3 = '''something
 # copy content you got fromm file and use it file close
 # try :
 #     filevariable = open(r"C:\Users\Sandipan Shinde>my notes.py")
-#     filevariable =open("my notes.py")
+#     filevariable =open("my notes.py")216
 #     content = filevariable.read()
 #     print("file content : ",content)
 # except:
@@ -1724,8 +1723,8 @@ c3 = '''something
 # objAdd = Addition(20)
 
 ##---============================================================================================
-print("hello")
-print ("komal")
+# print("hello")
+# print ("komal")
 
-print("komal sandip shinde")
-print(10+20)
+# print("komal sandip shinde")
+# print(10+20)

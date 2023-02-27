@@ -6,6 +6,7 @@ print(10 + 10)
 #   [ii] take input of char or substring?
 #     [iii] find firse,second and third index of substring?
 
-Q. you need to play song in oython?
- fromm playsound import playsound
+# Q. you need to play song in oython?
+#  fromm playsound import playsound
 
+#Q get index of 3 rd occurence of any element?

@@ -6,8 +6,8 @@
 # temp = a
 # a = b 
 # b = temp
-# print("the value of a after swapping :{}".format(a))
-# print("the value of b after swapping :{}".format(b))
+# print(" value of a after swapping :{}".format(a))
+# print(" value of b after swapping :{}".format(b))
 # ##============================================================================================
 
 #Q.2how to check number is prime or not?
@@ -27,6 +27,17 @@
 ##================================================================================================
 
 #Q.4 print fibbonacci series?
+# n = 10
+# n1 = 0 
+# n2 = 1
+# i = 0
+# while  i<n:
+#     print(n1)
+#     nth = n1 +n2
+#     n1 = n2
+#     n2 = nth
+#     i = i + 1
+#============================================================================================
 
 #Q.5 how to find the sum of element in an array?
 
