@@ -1526,53 +1526,53 @@ c3 = '''something
 
 #=================================================================================================
 '''clasess and object'''
-# empid =1001
-# name = 'komal'
-# address = 'pune'
-# salary = '3000000'
+empid =1001
+name = 'komal'
+address = 'pune'
+salary = '3000000'
 
-# def getEmployeeDetails():
-#     print (f"Emp id ={empid},name :{name},address:{address},salary:{salary}")
-# getEmployeeDetails()
+def getEmployeeDetails():
+    print (f"Emp id ={empid},name :{name},address:{address},salary:{salary}")
+getEmployeeDetails()
 
-##--------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------
 '''class creation'''
-#
-# class Employee:         # class => keyword to define class , Employee => class name, it can be anything and first char of each word has to be capital
-#     empid = 1001            #attribute  # int
-#     name = 'Savan'          #attribute   # str
-#     address = 'Pune'          #attribute
-#     salary = '9000000'          #attribute
 
-#     def getEmployeeDetails(self):       # method defination  # user defined
-#         print(f"Emp id = {self.empid}, Name : {self.name}, address : {self.address}, salary : {self.salary}")       # function body
+class Employee:         # class => keyword to define class , Employee => class name, it can be anything and first char of each word has to be capital
+    empid = 1001            #attribute  # int
+    name = 'Savan'          #attribute   # str
+    address = 'Pune'          #attribute
+    salary = '9000000'          #attribute
 
-#     def getCompany():       # self need to pass only when we need to use class attribute
-#         print("Innovant")
+    def getEmployeeDetails(self):       # method defination  # user defined
+        print(f"Emp id = {self.empid}, Name : {self.name}, address : {self.address}, salary : {self.salary}")       # function body
 
-# Employee.getCompany()           #Innovant ## way to call class method
-# ###Employee.getEmployeeDetails()       ## missing 1 required positional argument: 'self'
-# print(Employee.salary)      #9000000
+    def getCompany():       # self need to pass only when we need to use class attribute
+        print("Innovant")
 
-## self : is a first parameter to method if you want to access class attribute
-## self : it is not mandatory to have name as self, it can be anything like selfie or anything
-## parameter : when you define function then parameter
-## argument  : when you call function then you are providing values, that time argument
+Employee.getCompany()           #Innovant ## way to call class method
+###Employee.getEmployeeDetails()       ## missing 1 required positional argument: 'self'
+print(Employee.salary)      #9000000
 
-# ##----------------------------------------------------------------------------------------------------
-# '''object creations'''
-# emp = Employee()
-# Employee.getEmployeeDetails(emp)
-# #mployee.getCompany()
-# Employee.getSalary()
+# self : is a first parameter to method if you want to access class attribute
+# self : it is not mandatory to have name as self, it can be anything like selfie or anything
+# parameter : when you define function then parameter
+# argument  : when you call function then you are providing values, that time argument
 
-# #----------------------------------------------------------------------------------------------------
-# emp = Employee()
-# emp.getEmployeeDetails(emp)
-# emp.getEmployeeDetails()
+##----------------------------------------------------------------------------------------------------
+'''object creations'''
+emp = Employee()
+Employee.getEmployeeDetails(emp)
+#mployee.getCompany()
+Employee.getSalary()
+
+#----------------------------------------------------------------------------------------------------
+emp = Employee()
+emp.getEmployeeDetails(emp)
+emp.getEmployeeDetails()
 
 
-##=======================================================================================================
+#=======================================================================================================
 
 '''class with multiple objects.py'''
 

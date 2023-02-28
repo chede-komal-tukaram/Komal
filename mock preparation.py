@@ -907,7 +907,69 @@
 #=============================================================================
 
 
+#class and object :
+#create  class:-
+empid = 1001        #attribute
+name = 'savan'      #variable
+address ='pune'    #variable
+salary ='100000'    #variable
+
+def getEmployeeDetails():       #function defination #user defined
+    print(f"Emp id :{empid},Name :{name},Address :{address},salary :{salary}")      #function body
+
+getEmployeeDetails()    #function call
+    ##======================================================================================
+#class creation 
+class Employee:
+ empid = 1001
+ name = 'savan'
+ address = 'pune'
+ salary = '100000'
+
+ def getEmployeeDetails(self):
+        print(f"Empid = {self.empid},Name :{self.name},address :{self.address},salary : {self.salary}")
+
+ def getCompany():
+        print("innovant")
+
+Employee.getCompany()
+# Employee.getEmployeeDetails()
+
+print(Employee.salary)
 
 
 
 
+
+# empid = 1001            #variable  # int
+# name = 'Savan'          #variable   # str
+# address = 'Pune'          #variable
+# salary = '9000000'          #variable
+
+# def getEmployeeDetails():       # function defination  # user defined
+#     print(f"Emp id = {empid}, Name : {name}, address : {address}, salary : {salary}")       # function body
+
+# getEmployeeDetails()        ## function call
+
+# ###=============================================================================
+# ## class creation
+# class Employee:         # class => keyword to define class , Employee => class name, it can be anything and first char of each word has to be capital
+#     empid = 1001            #attribute  # int
+#     name = 'Savan'          #attribute   # str
+#     address = 'Pune'          #attribute
+#     salary = '9000000'          #attribute
+
+#     def getEmployeeDetails(self):       # method defination  # user defined
+#         print(f"Emp id = {self.empid}, Name : {self.name}, address : {self.address}, salary : {self.salary}")       # function body
+
+#     def getCompany():       # self need to pass only when we need to use class attribute
+#         print("Innovant")
+
+# Employee.getCompany()           #Innovant ## way to call class method
+# ###Employee.getEmployeeDetails()       ## missing 1 required positional argument: 'self'
+# print(Employee.salary)      #9000000
+
+# ## self : is a first parameter to method if you want to access class attribute
+# ## self : it is not mandatory to have name as self, it can be anything like selfie or anything
+# ## parameter : when you define function then parameter
+# ## argument  : when you call function then you are providing values, that time argument
