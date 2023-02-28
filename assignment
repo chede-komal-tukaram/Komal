@@ -215,5 +215,65 @@ avalue = 23279854
 #     sum = sum + i
 #     print("sum of list is :",sum)
 # ================================================================================
-# Q2
-        
+# Q2 find largest number in the list?
+# list = [1,4,6,9,8,5,3]
+# def max_num_in_list(list):
+#     max = list [0]
+#     for a in list :
+#         if a > max:
+#             max = a
+#             return max
+# print(max_num_in_list([1,4,6,9,8,5,3]))
+
+##=============================================================================================
+#Q3. how to find out sum of the list?
+# method := 1
+# mylist = [10,20,30,54,32,54]        
+# total = 0
+
+# for i in range(0,len(mylist)):
+#     total = total +mylist[i]
+
+# print("sum of all elements in given list",total)
+
+#--------------------------------------------------------------------------------------
+# method :=2
+# list = [1,2,4,65,76,433]
+# sum = 0
+# for i in list:
+#     sum = sum +i
+#     print("sum of list is:",sum)
+
+# ======================================================================================================
+# Q4. find odd and even number in a list?
+# list = [2,3,4,5,6,7,8,9]
+# even = 0
+# odd = 0
+# for i in list:
+#     if (i% 2==0):
+#         even = even +1
+#     else:
+#         odd = odd +1
+# print("even number in list ",even)
+# print("odd number in list",odd)
+
+# -----------------------------------------------------------------------------------
+# method := 2
+# list = [1,43,55,78,88,23,54,65,76]
+# for i in list:
+#     if (i % 2 == 0):
+#         print(i,"is even")
+#     else:
+#         print(i,"is odd")
+
+##===========================================================================================
+Q5.# Q print string in reverse way?
+
+# Q [i] take input from user any string?
+#   [ii] take input of char or substring?
+#     [iii] find firse,second and third index of substring?
+
+# Q. you need to play song in oython?
+#  fromm playsound import playsound
+
+#Q get index of 3 rd occurence of any element?
