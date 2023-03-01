@@ -909,33 +909,33 @@
 
 #class and object :
 #create  class:-
-empid = 1001        #attribute
-name = 'savan'      #variable
-address ='pune'    #variable
-salary ='100000'    #variable
+# empid = 1001        #attribute
+# name = 'savan'      #variable
+# address ='pune'    #variable
+# salary ='100000'    #variable
 
-def getEmployeeDetails():       #function defination #user defined
-    print(f"Emp id :{empid},Name :{name},Address :{address},salary :{salary}")      #function body
+# def getEmployeeDetails():       #function defination #user defined
+#     print(f"Emp id :{empid},Name :{name},Address :{address},salary :{salary}")      #function body
 
-getEmployeeDetails()    #function call
-    ##======================================================================================
-#class creation 
-class Employee:
- empid = 1001
- name = 'savan'
- address = 'pune'
- salary = '100000'
+# getEmployeeDetails()    #function call
+#     ##======================================================================================
+# #class creation 
+# class Employee:
+#  empid = 1001
+#  name = 'savan'
+#  address = 'pune'
+#  salary = '100000'
 
- def getEmployeeDetails(self):
-        print(f"Empid = {self.empid},Name :{self.name},address :{self.address},salary : {self.salary}")
+#  def getEmployeeDetails(self):
+#         print(f"Empid = {self.empid},Name :{self.name},address :{self.address},salary : {self.salary}")
 
- def getCompany():
-        print("innovant")
+#  def getCompany():
+#         print("innovant")
 
-Employee.getCompany()
-# Employee.getEmployeeDetails()
+# Employee.getCompany()
+# # Employee.getEmployeeDetails()
 
-print(Employee.salary)
+# print(Employee.salary)
 
 
 
@@ -973,3 +973,7 @@ print(Employee.salary)
 # ## self : it is not mandatory to have name as self, it can be anything like selfie or anything
 # ## parameter : when you define function then parameter
 # ## argument  : when you call function then you are providing values, that time argument
+
+
+
+##========================================================================================

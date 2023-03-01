@@ -145,11 +145,11 @@ c3 = '''something
 
 #==================================================================================================
 '''typecasting'''
-#10 + 10 = 20
+# 10 + 10 = 20
 # print(10 + 10)
 # print("10" + "10")      #1010
 # print(10 + "10")        #TypeError: unsupported operand type(s) for +: 'int' and 'str'       
-#-------------------------------------------------------------------------------------------
+# # ------------------------------------------------------------------------------------------
 # avalue = 10
 # bvalue = 20 
 # print(avalue + bvalue)      #30
@@ -161,9 +161,9 @@ c3 = '''something
 # #---------------------------------------------------------------------------------------------------
 # avalue = 10 
 # bvalue = "20"
-# #print (avalue + bvalue)     #TypeError: unsupported operand type(s) for +: 'int' and 'str'
-# #----------------------------------------------------------------------------------------------------
-# #int():-take input and create copy and convert in int then provide output
+#print (avalue + bvalue)     #TypeError: unsupported operand type(s) for +: 'int' and 'str'
+#----------------------------------------------------------------------------------------------------
+#int():-take input and create copy and convert in int then provide output
 # avalue = 10
 # bvalue = "20"
 # print (avalue + int(bvalue))        #30
@@ -239,9 +239,9 @@ c3 = '''something
 
 # a = 10
 # b = 20 
-#result = a + b
-#print(result)       #30
-##--------------------------------------------------------------------------------------------
+# result = a + b
+# print(result)       #30
+# ##--------------------------------------------------------------------------------------------
 
 '''assignment operator'''
 # a = 10
@@ -465,14 +465,20 @@ c3 = '''something
 #avalue = "welcome"
 #result = avalue.startswith ('w')
 #print ("f {'avalue'} startswith 'w' :{result}")
+try:
+    inputnumber = input("enter number to divide to 100 :")
+    result = 100/int(inputnumber)
+    print("result : ",result)
 
+except ZeroDivisionError as z :
+    print("You can not enter 0 as input :",z)
+except ValueError as v:
+    print("Input value is invalid",v)
+except Exception as ex :
+    print("Error occured :",ex)
+finally:
 
-
-#===================================================================================================
-"""escape character"""
-
-
-
+    print("program compleated successfully...")
 #===================================================================================================
 """list"""
 #{}---curly bracket
@@ -1294,10 +1300,6 @@ c3 = '''something
 #     counter = counter +1
 #     print("factorial of 5 {factorialofnumber}:{result}")        ##factorial of 5 : 120
           
-##================================================================================================
-
-'''syntax error'''
-
 ##==================================================================================================
 '''exceptions'''
 #print("hello")
@@ -1521,60 +1523,60 @@ c3 = '''something
 #     print("file content : ",content)
 # except:
 #     print("something went wrong")
-##finally:
- #  filevariable.close()
+# #finally:
+#   filevariable.close()
 
 #=================================================================================================
 '''clasess and object'''
-empid =1001
-name = 'komal'
-address = 'pune'
-salary = '3000000'
+# empid =1001
+# name = 'komal'
+# address = 'pune'
+# salary = '3000000'
 
-def getEmployeeDetails():
-    print (f"Emp id ={empid},name :{name},address:{address},salary:{salary}")
-getEmployeeDetails()
+# def getEmployeeDetails():
+#     print (f"Emp id ={empid},name :{name},address:{address},salary:{salary}")
+# getEmployeeDetails()
 
-#--------------------------------------------------------------------------------------------------
-'''class creation'''
+# #--------------------------------------------------------------------------------------------------
+# '''class creation'''
 
-class Employee:         # class => keyword to define class , Employee => class name, it can be anything and first char of each word has to be capital
-    empid = 1001            #attribute  # int
-    name = 'Savan'          #attribute   # str
-    address = 'Pune'          #attribute
-    salary = '9000000'          #attribute
+# class Employee:         # class => keyword to define class , Employee => class name, it can be anything and first char of each word has to be capital
+#     empid = 1001            #attribute  # int
+#     name = 'Savan'          #attribute   # str
+#     address = 'Pune'          #attribute
+#     salary = '9000000'          #attribute
 
-    def getEmployeeDetails(self):       # method defination  # user defined
-        print(f"Emp id = {self.empid}, Name : {self.name}, address : {self.address}, salary : {self.salary}")       # function body
+#     def getEmployeeDetails(self):       # method defination  # user defined
+#         print(f"Emp id = {self.empid}, Name : {self.name}, address : {self.address}, salary : {self.salary}")       # function body
 
-    def getCompany():       # self need to pass only when we need to use class attribute
-        print("Innovant")
+#     def getCompany():       # self need to pass only when we need to use class attribute
+#         print("Innovant")
 
-Employee.getCompany()           #Innovant ## way to call class method
-###Employee.getEmployeeDetails()       ## missing 1 required positional argument: 'self'
-print(Employee.salary)      #9000000
+# Employee.getCompany()           #Innovant ## way to call class method
+# ###Employee.getEmployeeDetails()       ## missing 1 required positional argument: 'self'
+# print(Employee.salary)      #9000000
 
-# self : is a first parameter to method if you want to access class attribute
-# self : it is not mandatory to have name as self, it can be anything like selfie or anything
-# parameter : when you define function then parameter
-# argument  : when you call function then you are providing values, that time argument
+# # self : is a first parameter to method if you want to access class attribute
+# # self : it is not mandatory to have name as self, it can be anything like selfie or anything
+# # parameter : when you define function then parameter
+# # argument  : when you call function then you are providing values, that time argument
 
-##----------------------------------------------------------------------------------------------------
-'''object creations'''
-emp = Employee()
-Employee.getEmployeeDetails(emp)
-#mployee.getCompany()
-Employee.getSalary()
+# ##----------------------------------------------------------------------------------------------------
+# '''object creations'''
+# emp = Employee()
+# Employee.getEmployeeDetails(emp)
+# #mployee.getCompany()
+# Employee.getSalary()
 
-#----------------------------------------------------------------------------------------------------
-emp = Employee()
-emp.getEmployeeDetails(emp)
-emp.getEmployeeDetails()
+# #----------------------------------------------------------------------------------------------------
+# emp = Employee()
+# emp.getEmployeeDetails(emp)
+# emp.getEmployeeDetails()
 
 
-#=======================================================================================================
+# #=======================================================================================================
 
-'''class with multiple objects.py'''
+# '''class with multiple objects.py'''
 
 #class Employee:         # class => keyword to define class , Employee => class name, it can be anything and first char of each word has to be capital
 #     empid = 1001            #attribute  # int
