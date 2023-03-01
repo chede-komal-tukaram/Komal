@@ -101,13 +101,47 @@
 # result = a + b 
 # print("addition : ",result)
 
-# temp = "welcome"
-# result = temp.upper()
-# print("upper wala result : ",result)
+temp = "welcome"
+result = temp.upper()
+print("upper wala result : ",result)
 
 
 def additionWithReturn(a,b):
-    result = a +b 
+    result = a + b 
     return result
 print(f"result after return:{result}")
 resultoutside = additionWithReturn(10,20)
+
+
+def isAdult (age:int):
+    if (age> 18):
+        return True
+    else:
+        return False
+    
+print(isAdult(22))
+
+#3=============================================================================================
+result = isAdult(17)
+print (result)
+
+result = isAdult (21)
+print(result)
+
+if (isAdult(22)):
+    print("you can travel")
+else:
+    print("you can not travel")
+
+def isAdultInString(age : int):
+    if (age > 18):
+        return "Adult"
+    else:
+        return "minor"
+result = isAdultInString(16)
+print(result)
+
+def printInUpper(inputstr):
+    print(inputstr.upper())
+    printInUpper()
+    printInUpper('welcome')
