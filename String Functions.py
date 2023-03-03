@@ -1,5 +1,5 @@
-#some points of stiring functions:-
-#1. a string can used by starts with or endswith .
+#some points of string functions:-
+#1.a string can used by starts with or endswith .
 #2.in string function letter is case sensetive always write letter as it is like a strig present.
 # capitalize()
 #upper()
