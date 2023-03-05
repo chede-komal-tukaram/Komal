@@ -1,0 +1,12 @@
+#FILE OPERATIONS
+
+##file reading operations
+
+# go to the file path or folder and locate file with file name
+#open File
+#read content/write content to file
+#copy content you got from file and use it.
+#file close
+
+#filevariable:-
+open(r"")

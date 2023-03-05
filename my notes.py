@@ -465,21 +465,21 @@ c3 = '''something
 #avalue = "welcome"
 #result = avalue.startswith ('w')
 #print ("f {'avalue'} startswith 'w' :{result}")
-try:
-    inputnumber = input("enter number to divide to 100 :")
-    result = 100/int(inputnumber)
-    print("result : ",result)
+# try:
+#     inputnumber = input("enter number to divide to 100 :")
+#     result = 100/int(inputnumber)
+#     print("result : ",result)
 
-except ZeroDivisionError as z :
-    print("You can not enter 0 as input :",z)
-except ValueError as v:
-    print("Input value is invalid",v)
-except Exception as ex :
-    print("Error occured :",ex)
-finally:
+# except ZeroDivisionError as z :
+#     print("You can not enter 0 as input :",z)
+# except ValueError as v:
+#     print("Input value is invalid",v)
+# except Exception as ex :
+#     print("Error occured :",ex)
+# finally:
 
-    print("program compleated successfully...")
-#===================================================================================================
+#     print("program compleated successfully...")
+# #===================================================================================================
 """list"""
 #{}---curly bracket
 #()----round bracket

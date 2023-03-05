@@ -27,16 +27,16 @@
 #2.index
 
 
-#values = (10,20,30,50,60,20,50,60,10,10,100)
+values = (10,20,30,50,60,20,50,60,10,10,100)
 # print(values,type(values))
 
 # print(f"avalue before count {values}")
 # result = values.count(10)
 # print(f"avalue after count {values} : result = {result}")       #(10, 20, 30, 50, 60, 20, 50, 60, 10, 10) : result = 3
-# #_________________________________________------------------------------------------------
-# print(f"values before count(100)")
+#_________________________________________------------------------------------------------
+# print(f"values before count():{values}")
 # result = values.count(100)
-# print(f"values after count(100){values} : result = {result}")   #result =1
+# print(f"values after count(){values} : result = {result}")   #result =1
 
 #-------------------------------------------------------------------------------------------------
 # tuple = (10,25,40,60,50,10,100)

@@ -7,31 +7,31 @@ list =[]
 #() - round bracket
 #{} - curly bracket
 
-"""
-a = 10
-print(a,type(a))
 
-colors = ['Red','Green','Blue','Black','Pink']
-print(colors,type(colors))
+# a = 10
+# print(a,type(a))
 
-avalue = 'welcome'
-avalue[0]
+# colors = ['Red','Green','Blue','Black','Pink']
+# print(colors,type(colors))
 
-print(colors[0])        #Red
-print(colors[4])        #Pink
-print(colors[-1])       #Pink
-print(colors[3])        #Black
+# avalue = 'welcome'
+# avalue[0]
 
-print (colors[0:3])     #Red,Green,Blue"""
+# print(colors[0])        #Red
+# print(colors[4])        #Pink
+# print(colors[-1])       #Pink
+# print(colors[3])        #Black
+
+# print (colors[0:3])     #Red,Green,Blue"""
 
 
 ##=========================================================================================
-'''
-colors = ['Red','Green','Blue','Black','Pink']
-newitem = 'white'
-colors[3] = newitem     #item assignement
-colors[4] = 'Yellow'
-print(colors,type(colors))
+
+# colors = ['Red','Green','Blue','Black','Pink']
+# newitem = 'white'
+# colors[3] = newitem     #item assignement
+# colors[4] = 'Yellow'
+# print(colors,type(colors))
 
 #avalue ='welcome'
 #avalue[3] = 'd'         #TypeError: 'str' object does not support item assignment
@@ -47,33 +47,33 @@ print(colors,type(colors))
 
 #List - we can change single or few element/item from list.
 
-avalue = 'welcome'
-print(avalue)
-avalue = 'weldone'
-print(avalue)'''
+# avalue = 'welcome'
+# print(avalue)
+# avalue = 'weldone'
+# print(avalue)'''
 
 ##============================================================================================
 
-'''
-avalue = 'welcome'
-print(avalue)                   #welcome
-result = avalue.replace('c','d')
-print(avalue)                   #welcome
-print(result)                   #weldome
 
-avalue = 'welcome'
-print(avalue[::1])              #welcome
-print(avalue[::-1])             #emoclew
-print(avalue[::2])              #wloe
-print(avalue[::-2])             #eolw
+# avalue = 'welcome'
+# print(avalue)                   #welcome
+# result = avalue.replace('c','d')
+# print(avalue)                   #welcome
+# print(result)                   #weldome
+
+# avalue = 'welcome'
+# print(avalue[::1])              #welcome
+# print(avalue[::-1])             #emoclew
+# print(avalue[::2])              #wloe
+# print(avalue[::-2])             #eolw
 
 
-colors =['Red','Green','Blue','Black','Pink']
+# colors =['Red','Green','Blue','Black','Pink']
 
-print(colors[::1])              #['Red', 'Green', 'Blue', 'Black', 'Pink']
-print(colors[::-1])             #['Pink', 'Black', 'Blue', 'Green', 'Red']
-print(colors[::2])              #['Red', 'Blue', 'Pink']
-print(colors[::-2])             #['Pink', 'Blue', 'Red']'''
+# print(colors[:])              #['Red', 'Green', 'Blue', 'Black', 'Pink']
+# print(colors[::-1])             #['Pink', 'Black', 'Blue', 'Green', 'Red']
+# print(colors[::2])              #['Red', 'Blue', 'Pink']
+# print(colors[::-2])             #['Pink', 'Blue', 'Red']'''
 
 ###*********************************************************************************************************
 
@@ -85,9 +85,9 @@ print(colors[::-2])             #['Pink', 'Blue', 'Red']'''
 #5.pop()
 #6.remove()
 
-colors = ['Red','Green','Blue','Black','Pink']
+# colors = ['Red','Green','Blue','Black','Pink']
 
-values = [34,45,56,89,99,10]
+# values = [34,45,56,89,99,10]
 
 #print(len(colors))      #5
 
@@ -95,13 +95,13 @@ values = [34,45,56,89,99,10]
 # print(f"List before sort {values}")
 # result = values.sort()
 # print(f"List after sort {values} : result :{result}")   
-# # if we want to sort list in ascending manner.
+# if we want to sort list in ascending manner.
 
 
 # print(f"List before sort {values}")
 # result = values.sort(reverse = True)
 # print(f"List after sort {values} : result :{result}")
-# # if we want to sort list in descending manner.
+# if we want to sort list in descending manner.
 
 # #-----------------------------------------------------------------------------------------------------
 # #2.reverse():-
@@ -125,7 +125,7 @@ values = [34,45,56,89,99,10]
 # print(f"List before reverse {values}")      # [10, 34, 45, 56, 89, 99, 100]
 # result = values.insert(2,300)
 # print(f"List before reverse {values}:result :{result}")     #[10, 34, 300, 45, 56, 89, 99, 100]
-# #insert the value which index we will give to it.
+# # #insert the value which index we will give to it.
 
 # #--------------------------------------------------------------------------------------
 # #5.pop:-
@@ -137,7 +137,7 @@ values = [34,45,56,89,99,10]
 # print(f"List before reverse {values}")      # [10, 34, 45, 56, 89, 99, 100]
 # result = values.pop()
 # print(f"List before reverse {values}:result :{result}")     #[10, 34, 300, 56, 89, 99]:result :100
-# By default it will poped last index
+# # By default it will poped last index
 #--------------------------------------------------------------------------------------------
 #6. remove:-
 # print(f"List before reverse {values}")      # [10, 34, 45, 56, 89, 99, 100]
@@ -189,6 +189,7 @@ values = [34,45,56,89,99,10]
 #         odd = odd +1
 # print("even number in list ",even)
 # print("odd number in list",odd)
+
 
 ##!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
