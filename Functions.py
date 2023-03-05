@@ -8,8 +8,12 @@
 #3.range()
 #4. len()
 
-print("hello world")
-print("hello world")
-print("hello world")
-print("hello world")
-print("hello world")
+# print("hello world")
+# print("hello world")
+# print("hello world")
+# print("hello world")
+# print("hello world")
+
+
+###----------------------------------------------------------------------------------------
+#
