@@ -309,8 +309,15 @@ getEmployeeDetails()
 
 ###=============================================================================================
 
+# some tricks
+
+#print('-komal'*5)       # it displays 5 times komal
+
+# str1 = 'wel'
+# print(str1,'-come')              # wel come
 
 
-
-
-print("Kolal")
+#addition of 2 string or concatination of 2 string
+# str1 = 'welcome'
+# str2 = 'python'
+# print(str1,str2)          # welcome python
