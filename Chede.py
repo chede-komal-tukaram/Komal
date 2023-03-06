@@ -9,4 +9,42 @@
 #file close
 
 #filevariable:-
-open(r"")
+# open(r"D:\Komal>\sample.txt")       #r is for row string
+# filevariable  = open("sample.txt")
+# #if you dont provide full path then it use relative path
+# #search in same folder where you have a program.
+# content = filevariable.read()
+# print("File content : ",content)
+# filevariable.close()
+
+
+# ==============================================================================================
+
+#factorial of numbers
+# counter = 15 
+# result = 1
+# while counter >1:
+#     result = result * counter 
+#     counter = counter - 1
+# print("factorial of 15 : ",result)
+
+
+# counter = 2
+# result = 1
+
+# while counter  <= 5:
+#     result = result * counter
+#     counter = counter + 1
+# print("factorial of 5 :",result)
+
+# factorialofnumber = int(input("enter a number to get factorial :"))
+# counter = 2
+# result = 1
+
+# while counter <= factorialofnumber:
+#         result = result * counter
+#         counter = counter +1
+# print("factorial of {factorial of number}",{result})
+
+
+print(' -komal'  -5)
