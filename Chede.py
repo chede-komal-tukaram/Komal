@@ -47,4 +47,12 @@
 # print("factorial of {factorial of number}",{result})
 
 
-print(' -komal'  -5)
+# print(' -komal'  -5)
+
+
+
+
+# icounter = 0
+# while icounter <=10:
+#     print("hi komal")
+#     icounter = icounter + 1 
