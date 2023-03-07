@@ -39,10 +39,10 @@ values = (10,20,30,50,60,20,50,60,10,10,100)
 # print(f"values after count(){values} : result = {result}")   #result =1
 
 #-------------------------------------------------------------------------------------------------
-# tuple = (10,25,40,60,50,10,100)
-# print(f"tuple before index(100)")
-# result = tuple.index(100)
-# print(f"tuple after index(100){tuple} : result = {result}")   #result =6
+tuple = (10,25,40,60,50,10,100)
+print(f"tuple before index(100)")
+result = tuple.index(100)
+print(f"tuple after index(100){tuple} : result = {result}")   #result =6
 
 # #-------------------------------------------------------------------------------------------
 # tuple = (10,25,40,60,50,10,100)
