@@ -30,14 +30,14 @@
 
 #         icounter = icounter +1
 # #===========================================================================
-list = [10,43,90,67,60,35,45]
-icounter = 0
-while icounter <= 6:
-        icounter <= len(list)-1
-        if list [icounter]== 60 or list [icounter]==90:
-            print(list[icounter])
+# list = [10,43,90,67,60,35,45]
+# icounter = 0
+# while icounter <= 6:
+#         icounter <= len(list)-1
+#         if list [icounter]== 60 or list [icounter]==90:
+#             print(list[icounter])
 
-        icounter = icounter +1
+#         icounter = icounter +1
 
 
 
@@ -148,9 +148,10 @@ while icounter <= 6:
 
 # =====================================================
 
-icounter = 0
-while icounter <=10:
-      if icounter % 2 == 0:
-      print(" E")
-      icounter = icounter + 1 
--
+# icounter = 1
+# while icounter <=10:
+#       if icounter % 2 == 0:
+#         print(icounter)
+#       icounter = icounter + 1 
+
+

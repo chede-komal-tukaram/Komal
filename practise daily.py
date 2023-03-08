@@ -72,10 +72,10 @@
 # ##+=========================================================================================
 # #input function always accept input values as 
 
-a = input ("Enter first number : ")
-b = input ("Enter second number : ")
-result = a +b
-print (result)
+# a = int(input ("Enter first number : "))
+# b = int(input ("Enter second number : "))
+# result = a +b
+# print (result)
 
 # ##============================================================================================
 # a = input ("enter first number : ")
