@@ -1,16 +1,34 @@
 # num = 10
-# icounter = 1
-# while icounter <= 10:
+# icounter = 10
+# while icounter >= 1:
 #     print(num * icounter)
-#     icounter = icounter +1
+#     icounter = icounter -1
 
-# list = [10,20,45,65,87,64,89]
+t = (10,20,45,65,87,64,89)
 
 # icounter = 0 
 # while icounter <=6:
 #     icounter <=len(list)- 1
 #     print(list[icounter])
 #     icounter = icounter +1
+
+# i = 0
+# while i <= 6:
+#     i<=len(t)-1
+#     print(t[i])
+#     i = i + 1
+
+
+v = (1,2,3,34,5,6,7,8,9)
+i = 0
+while i<= 8:
+    i<=len(v)-1
+    print(v[i])
+    i = i +1
+
+
+
+
 
 
 # list = [10,20,45,65,87,64,89]
