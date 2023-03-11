@@ -1,191 +1,66 @@
-# class BillingCustomer:
-#     billId =000
+'practise of class and object '
+
+# id = 1001
+# name = 'komal'
+# address = 'pune' 
+# salary ='50000'
+
+# def getEmployeeDetails():
+#     print(f"id ={id},name :{name},address:{address},salary :{salary}")
+
+#     getEmployeeDetails()            # it does not disply result
+# #-----------------------------------------------------------------------------------------------
+
+# # class creation
+# class Employee:
+#     empid =1001
+#     name ='Savan'
 #     address = 'pune'
-#     billAmount = 0
+#     salary = '50000'
 
-#     def getBillingDetails(self):
-#         return f"Bill Id :{self.billId},Address: {self.address},Bill Amount : {self.billAmount}"
-    
-# billobj =BillingCustomer()
-# billInfo = billobj.getBillingDetails()
-# print(billInfo)
+#     def getEmployeeDetails(komal):
+#         print(f"empid : {komal.empid},name :{komal.name},address :{komal.address},salary:{komal.salary}")
+        
+#     def getcompany():
+#         print("Innovant")
 
-# ##========================================
+# Employee.getcompany()
+# # Employee.getEmployeeDetails()
+# print(Employee.salary)
+# # ------------------------------------------------------------------------------------------------
+# #  object reation:-
+# emp = Employee()
+# Employee.getcompany()
+# emp = Employee()
+# # emp.getEmployeeDetails(emp)
+# emp.getEmployeeDetails()
 
-# class BillingCustomer:
-#     billId = 000
+# ======================================================================
+#class creation
+# class Employee:
+#     empid = 1001
+#     name = 'kalyani'
 #     address = 'pune'
-#     billAmount = 0
-    
-#     def __init__(self) ->None:
-#         print("I am constructor of BillingCustomer")
+#     salary = '60000'
 
-#     def getBillingDetails(self):
-#         return f"Bill Id :{self.billId},Address:{self.address},billAmount : {self.billAmount}"
-    
-# billobj =BillingCustomer()
-# billobj.billId = 111
-# billobj.billAmount = 100
-# billInfo = billobj.getBillingDetails()
-# print(billInfo)
+#     def getInfo(self):
+#         print(f"empid = {self.empid},name:{self.name},address :{self.address},salary :{self.salary}")
+     
+#     def updateInfo(selfie,empid,name,company):
+#         selfie.empid =empid
+#         selfie.name = name
+#         selfie.company = company
 
 
-# billobj2 = BillingCustomer()
-# billobj2.billId =222
-# billobj2.billAmount =200
-# billInfo = billobj2.getBillingDetails()
-# print(billInfo)
-##----------------------------------------------------------------------------------------
+# emp =Employee()
+# emp2 = Employee()
+# emp.getInfo()
+# emp2.getInfo()
 
-# class BillingCustomer:
-#     billId = 000
-#     address = "pune"
-#     billAmount =0
+# Employee.updateInfo(emp,2002,'priya','IBM')
 
-#     def __init__(self) ->None:
-#         self.billId = 111
-#         self.billAmount = 100
-#         self.isCorrectionRequired = False
-# print("I am constructor of BillingCustomer")
+# emp.getInfo()
+# emp2.getInfo()
 
-# def getBillingDetails(self):
-#     return f"Bill Id :{self.billId},Address :{self.address},Bill Amount:{self.billAmount}"
-
-# billobj = BillingCustomer()
-# #billInfo =billobj.getBillingDetails()
-# print("billInfo")
-
-# billobj2 = BillingCustomer()
-# #billInfo=billobj2.getBillingDetails()
-# print(billInfo)
-
-# billobj.__init__()
-# billobj2.__init__()
-
-# ##--------------------------------------------------------------------------------
-
-# def add(a,b, c=0):
-#     add(10,39)
-#     add(10,39)
-#     add(10,39)
-#     add(10,39)
-#     add(10,39)
-#     add(10,39)
-
-# add (10,45,67)
-
-# billobj = BillingCustomer(111,200,True)
-# billobj = BillingCustomer()
-
-
-##===============================
-#parameterized constructor :
-
-
-# class Addition:
-#     firstNum =0
-#     secondnum =0
-
-#     def __init__(self,first,second) -> None:
-
-#         self.firstnum = first
-#         self.secondnum = second
-
-#     def getResult(self) ->int:
-#         return self.firstnum + self.secondnum
-
-# #objAdd = Addition()
-
-# objAdd = Addition(200,300)
-# print(objAdd.getResult())
-
-
-# # -----------------------------------------------------------------------------------------------------------
-# #parameterized constructor
-
-# class Addition:
-#     firstnum =0
-#     secondnum =0
-#     def __init__(self,first = 100,second =100) -> None:
-#         self.firstnum = first
-#         self.secondnum = second
-
-#     def getResult(self) -> int:
-#         return self.firstnum +self.secondnum
-    
-# objAdd = Addition()
-# objAdd = Addition (200,300)
-# print(objAdd.getResult())
-
-# objAdd =Addition()
-# objAdd =Addition(400)
-# objAdd =Addition(second =500)
-# objAdd =Addition(second = 500,first =300)
-
-###========================================================================================================================
-#Exceptions:
-print("hello world")
-
-# a = [10,34,54,22,88]
-# try:
-#     print(a[3])
-#     print(a[2])
-#     print(a[0])
-#     print(a[-1])
-#     print(a[6])
-# except Exception as ex:
-#     print("something went wrong",ex)
-
-# print("program is compleated...")
-
-
-# ##===========================================================================================
-# a = [10,45,34,22,4,5]
-# try :
-#     print(a [3])
-#     print(a[2])
-#     print(a[6])
-#     print(a[0])
-#     print(a[-1])
-# except Exception as ex :
-#     print("something went wrong",ex)
-# print("program is compleated...")
-
-##===================================================================
-# a = [10,4,65,4,32]
-# try :
-#     print(a [3])
-#     print(a[2])
-#     print(a[6])
-#     print(a[0])
-#     print(a[-1])
-# except Exception as ex :
-#     print("something went wrong",ex)
-# print("Given index is not present",ie)
-# print("program is compleated")
-# ##====================
-
-# try:
-#     inputnumber = input("enter number to divide to 100 :")
-#     result = 100/int(inputnumber)
-#     print("result : ",result)
-
-# except ZeroDivisionError as z :
-#     print("You can not enter 0 as input :",z)
-# except ValueError as v:
-#     print("Input value is invalid",v)
-# except Exception as ex :
-#     print("Error occured :",ex)
-
-
-# for loop
-
-
-range (5)
-
-
-i = 1
-
-for i in range( 1,11):
-    
-    print("2*","i","=",2*i)
+# print(emp.company)
+# # print(emp2.company)
