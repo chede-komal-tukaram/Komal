@@ -40,7 +40,7 @@
 #============================================================================================
 
 #Q.5 how to find the sum of element in an array?
-
+# ================================================================================================
 #Q.7 how to find length of string?
 # avalue = "welcome to PYTHON"
 # print (f"length of avalue :{len(avalue)}")
@@ -107,13 +107,34 @@ list = [10,40,30,20,67,33]
 
 #Q.19 how to find second largest number in the list?
 
+# list = [10,45,55,68,90]
+# list.sort()
+# element = list[-2]
+# print("second largest number is :",element)         #68
+#===========================================================================================
 
 #Q.20 how to check string is pallindrome or not?
 
+# n = int(input("enter number :"))
+# temp = n
+# rev = 0 
+# while (n>0):
+#     dig = n %10
+#     rev = (rev*10) +dig
+#     n = n//10
+# if (temp ==rev):
+#         print("the number is a  pallindrome.")
+# else:
+#     print("the number is not a pallindrome.")
+
+# =============================================================================================
 
 #Q. 21 how to reverse world in a string?
 # # string = "weldone"
 # print(string[::-1])
+
+# ===============================================================================================
+
 #Q.22 how to find a substring in a string?
 #a = "innovant Academy"
 #print(a[8:16])      ##academy
@@ -126,4 +147,8 @@ list = [10,40,30,20,67,33]
 
 #Q.24 how to check if the string contain any special character?
 
+print("hi")
+
+
 #Q.25 CHECK FOR url in a string?
+
