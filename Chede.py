@@ -61,3 +61,18 @@
 
 
 # print("hi")
+# =======================================================================================================
+# 'input function'
+# a = 10 
+# b = 20
+# result = a +b 
+# print(result)
+
+# input function always accept input value as a SyntaxWarning
+# a = input("enter first number :")
+# b = input("enter second number:")
+
+# result = int(a) + int(b)
+# print(result)
+
+# ==========================================
