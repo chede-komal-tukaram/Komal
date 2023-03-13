@@ -4,7 +4,7 @@
 #     print(num * icounter)
 #     icounter = icounter -1
 
-t = (10,20,45,65,87,64,89)
+# t = (10,20,45,65,87,64,89)
 
 # icounter = 0 
 # while icounter <=6:
@@ -19,12 +19,12 @@ t = (10,20,45,65,87,64,89)
 #     i = i + 1
 
 
-v = (1,2,3,34,5,6,7,8,9)
-i = 0
-while i<= 8:
-    i<=len(v)-1
-    print(v[i])
-    i = i +1
+# v = (1,2,3,34,5,6,7,8,9)
+# i = 0
+# while i<= 8:
+#     i<=len(v)-1
+#     print(v[i])
+#     i = i +1
 
 
 
