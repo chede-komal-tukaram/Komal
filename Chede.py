@@ -52,12 +52,12 @@
 
 
 
-icounter = 0
-while icounter <=10:
-    print("hi komal")
-    icounter = icounter + 1 
+# icounter = 0
+# while icounter <=10:
+#     print("hi komal")
+#     icounter = icounter + 1 
 
 
 
 
-print("hi")
+# print("hi")

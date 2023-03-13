@@ -11,9 +11,18 @@
 # ##============================================================================================
 
 #Q.2how to check number is prime or not?
+# num =int(input("enter the  number:"))
+# if num ==1:
+#     print("is not prime number")
+# if num >1:
+#         for n in range(2,num):
+#             if num%2==0:
+#                 print(num,"is not prime number ")
+#                 break
+#             else:
+#                  print("num,is prime number")
 
-
-
+# ===========================================================================================
 
 #Q.3 how to find factorial of number6?
 #factorial of 6 =  6*5 * 4 * 3 * 2 =720
@@ -40,6 +49,11 @@
 #============================================================================================
 
 #Q.5 how to find the sum of element in an array?
+# list = [1,2,4,6,56,43,34]
+# sum = 0
+# for i in list:
+#     sum = sum +i
+#     print("sum of list is :",sum)
 # ================================================================================================
 #Q.7 how to find length of string?
 # avalue = "welcome to PYTHON"
@@ -76,8 +90,11 @@
 ##================================================================================================
 #Q.10 how to remove the Nth occurance of a given word list?
 
+# ===================================================================================================
 #Q.11 how to serch an elemenet in the arry?
 
+
+# ============================================================================================
 #Q.12 how to clear the list?
 # list = [10,40,30,20,67,33]
 
@@ -99,7 +116,7 @@
 #Q.15 how to count occurance of an element in a list?
 
 #Q.17how to multiply all the numbers in the list?
-list = [10,40,30,20,67,33]
+# list = [10,40,30,20,67,33]
 
 
 
@@ -107,6 +124,13 @@ list = [10,40,30,20,67,33]
 
 #Q.19 how to find second largest number in the list?
 
+# list = [10,20,45,4,99]
+# list.sort()
+# element = list[-2]
+
+# print("second largest number in list :",element)
+
+# =================================================================================================
 # list = [10,45,55,68,90]
 # list.sort()
 # element = list[-2]
@@ -147,7 +171,7 @@ list = [10,40,30,20,67,33]
 
 #Q.24 how to check if the string contain any special character?
 
-print("hi")
+# print("hi")
 
 
 #Q.25 CHECK FOR url in a string?
