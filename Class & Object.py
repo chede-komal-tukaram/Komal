@@ -55,30 +55,30 @@
 #CLASS WITH MULTIPLE OBJECTS#
 
 #class creation
-class Employee:                           #class is keyword and Employee is class name
-      empid = 1001                        #Attribute
-      name = 'savan'                      #Attribute
-      address = 'pune'                    ##Attribute
-      salary = '90000'                    ##Attribute
+# class Employee:                           #class is keyword and Employee is class name
+#       empid = 1001                        #Attribute
+#       name = 'savan'                      #Attribute
+#       address = 'pune'                    ##Attribute
+#       salary = '90000'                    ##Attribute
 
-      def getInfo(self):
-            print(f"emp id = {self.empid},name :{self.name},address :{self.address},salary :{self.salary}")
-                  #Function body
+#       def getInfo(self):
+#             print(f"emp id = {self.empid},name :{self.name},address :{self.address},salary :{self.salary}")
+#                   #Function body
 
-      def UpdateInfo(selfie,empid,name,company):            #self is object and empid is parameter
-            selfie.empid = empid
-            selfie.name = name
-            selfie.company = company
-                  #newly added arrtibute to only emp object
+#       def UpdateInfo(selfie,empid,name,company):            #self is object and empid is parameter
+#             selfie.empid = empid
+#             selfie.name = name
+#             selfie.company = company
+#                   #newly added arrtibute to only emp object
 
-emp = Employee()
-emp2 = Employee()
-emp.getInfo()
-emp2.getInfo()
-Employee.UpdateInfo(emp,2002,"priya","IBM")
+# emp = Employee()
+# emp2 = Employee()
+# emp.getInfo()
+# emp2.getInfo()
+# Employee.UpdateInfo(emp,2002,"priya","IBM")
 
-emp.getInfo()
-emp2.getInfo()
+# emp.getInfo()
+# emp2.getInfo()
 
-print(emp.company)            #IBM
-print(emp2.company)
+# print(emp.company)            #IBM
+# print(emp2.company)

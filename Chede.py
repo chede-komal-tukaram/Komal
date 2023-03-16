@@ -1,78 +1,92 @@
-#FILE OPERATIONS
+# class BillingCustomer:        #BillingCustomer is a class name
+#     billId = 000              #attribute
+#     address = 'pune'          #attribute
+#     billAmount = 0            #attribute
 
-##file reading operations
-
-# go to the file path or folder and locate file with file name
-#open File
-#read content/write content to file
-#copy content you got from file and use it.
-#file close
-
-#filevariable:-
-# open(r"D:\Komal>\sample.txt")       #r is for row string
-# filevariable  = open("sample.txt")
-# #if you dont provide full path then it use relative path
-# #search in same folder where you have a program.
-# content = filevariable.read()
-# print("File content : ",content)
-# filevariable.close()
-
-
-# ==============================================================================================
-
-#factorial of numbers
-# counter = 15 
-# result = 1
-# while counter >1:
-#     result = result * counter 
-#     counter = counter - 1
-# print("factorial of 15 : ",result)
-
-
-# counter = 2
-# result = 1
-
-# while counter  <= 5:
-#     result = result * counter
-#     counter = counter + 1
-# print("factorial of 5 :",result)
-
-# factorialofnumber = int(input("enter a number to get factorial :"))
-# counter = 2
-# result = 1
-
-# while counter <= factorialofnumber:
-#         result = result * counter
-#         counter = counter +1
-# print("factorial of {factorial of number}",{result})
-
-
-# print(' -komal'  -5)
+#     def getBillingDetails(self):
+#         return f" BILL ID : {self.billId}, ADDRESS : {self.address},BILLAMOUNT :{self.billAmount}"
+    
+# billobj = BillingCustomer()
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)             #BILL ID : 0, ADDRESS : pune,BILLAMOUNT :0
 
 
 
+# ================================================================
+# #constructors:
+# class BillingCustomer:
+#    billId = 111
+#    address = 'pune'
+#    billAmount =222
 
-# icounter = 0
-# while icounter <=10:
-#     print("hi komal")
-#     icounter = icounter + 1 
+#    def __init__(self) -> None:
+#         print("I am constructor of this BillingCustomer")
 
+#    def getBillingDetails(self):
+#        return f"billId :{self.billId},address : {self.address}, billAmount :{self.billAmount}"
 
+# billobj = BillingCustomer()
+# billobj.billId = 222
+# billobj.billAmount = 100
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)     #billId :222,address : pune, billAmount :100
 
+#=====================================================================================
+##constructor:
+# class BillingCustomer:
+#     billId = 121
+#     address = 'solapur'
+#     billAmount = 211
 
-# print("hi")
-# =======================================================================================================
-# 'input function'
-# a = 10 
-# b = 20
-# result = a +b 
-# print(result)
+#     def __init__(self) -> None:
+#             self.billId=333
+#             self.billAmount =444
+#             self.isCorrectionRequired = False
+#             print("I am constructor of BillingCustomer")
 
-# input function always accept input value as a SyntaxWarning
-# a = input("enter first number :")
-# b = input("enter second number:")
+#     def getBillingDetails(self):
+#          return f"bill Id : {self.billId},address : {self.address},billAmount : {self.billAmount}"
 
-# result = int(a) + int(b)
-# print(result)
+# billobj = BillingCustomer()
+# billInfo = billobj.getBillingDetails()
+# print(billInfo)
+# print(billobj)
 
-# ==========================================
+# billobj2 = BillingCustomer()
+# billInfo = billobj2.getBillingDetails()
+# print(billInfo)
+# # =============================================================================================
+# class BillingCustomer:
+#       billId = 000
+#       address = 555
+#       billAmount =000
+
+# def __init__(self) -> None:
+#             self.billId=333
+#             self.billAmount =444
+#             self.isCorrectionRequired = False
+#             print("I am constructor of BillingCustomer")
+
+# def __init__(self,id,amount,correction) ->None:
+#        self.billId = id
+#        self.billAmount = amount
+#        self.isCorrectionRequired = correction
+#        print("I am constructor of BillingCustomer")
+# def correctionRequired(self):
+#        return self.isCorrectionRequired
+
+# def getBillingDetails(self):
+#        return f" bill id :{self.billId},Address : {self.address},bill amount :{self.billAmount}"
+
+# # billobj = BillingCustomer()
+# # __init__()                TypeError:
+
+       
+# # billobj = BillingCustomer(111,200,True)
+# # __init__()
+# # info = billobj.getBillingDetails()
+# # print(info)
+
+# billobj2 = BillingCustomer(222,1000,True)
+# INFO = billobj2.getBillingDetails()
+# print(INFO)
