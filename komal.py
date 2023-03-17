@@ -63,4 +63,4 @@ emp.getInfo()
 emp2.getInfo()
 
 print(emp.company)
-print(emp2.company)
+# print(emp2.company)
