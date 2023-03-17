@@ -90,3 +90,136 @@
 # billobj2 = BillingCustomer(222,1000,True)
 # INFO = billobj2.getBillingDetails()
 # print(INFO)
+
+
+
+##=====================================================================================================
+# class creation 
+# class Employee:
+#     empid = 1001
+#     name = 'komal'
+#     address = 'pune'
+#     salary = '500000'
+
+#     def getEmployeeDetails(self):
+#         print(f"Empid : {self .empid},name : {self.name},address : {self.address},salary : {self.salary}")
+
+#     def getCompany():
+#         print("Innovant")
+
+# emp = Employee()
+# emp.getEmployeeDetails()    #Empid : 1001,name : komal,address : pune,salary : 500000
+
+# class TempEmployee(Employee):
+#     duration = 12
+
+#     def getduration(self):
+#         print(f"duration:{self.duration}")
+
+# tempEmp = TempEmployee()
+# tempEmp.getEmployeeDetails()    #Empid : 1001,name : komal,address : pune,salary : 500000
+# tempEmp.getduration()           #duration:12
+# Employee.getCompany()           #Innovant
+# emp.getEmployeeDetails()        #Empid : 1001,name : komal,address : pune,salary : 500000
+
+# # emp.getduration()
+
+# #Multiple inheritance
+# class ConsultantEmployee(Employee,TempEmployee):
+
+
+# ========================================================================
+# single inheritance:
+
+# class Employee:
+#     name = 'unknown'
+#     address = 'unknown'
+
+#     def getEmployeeDetails(self):
+#         print(f"name :{self.name},address : {self.address}")
+
+# class TempEmployee(Employee):
+#     stipend =100000
+
+#     def getstipend(self):
+#         print(f"stipend : {self.stipend}")
+
+# empobj = Employee()
+# empobj.getEmployeeDetails()
+
+# tempEmp = TempEmployee()
+# tempEmp.getEmployeeDetails()
+# tempEmp.getstipend()
+
+
+##---------------------------------------------------------------------------------------------
+
+# Multilevel inheritance:-
+
+# class Employee:
+#     name = 'unknown'
+#     address = 'unknown'
+
+#     def getEmployeeDetails(self):
+#         print(f"name :{self.name},address : {self.address}")
+
+# class TempEmployee(Employee):
+#     stipend =100000
+
+#     def getstipend(self):
+#         print(f"stipend : {self.stipend}")
+
+# empobj = Employee()
+# empobj.getEmployeeDetails()
+
+# tempEmp = TempEmployee()
+# tempEmp.getEmployeeDetails()
+# tempEmp.getstipend()
+
+# class InternEmployee(TempEmployee):
+#     duration = 6 
+
+#     def getdurationMonth(self):
+#         print(f"durationMonth :{self.durationMonth}")
+
+# objIntern =InternEmployee()
+# objIntern.getEmployeeDetails()
+# objIntern.getstipend()
+# # objIntern.getdurationMonth()
+
+##------------------------------------------------------------------------------
+
+## heirarchial inheritance
+class Employee:
+     
+    name = 'unknown'
+    address = 'unknown'
+
+    def getEmployeeDetails(self):
+        print(f"name :{self.name},address : {self.address}")
+
+class TempEmployee(Employee):
+    stipend =100000
+
+    def getstipend(self):
+        print(f"stipend : {self.stipend}")
+
+empobj = Employee()
+empobj.getEmployeeDetails()
+
+tempEmp = TempEmployee()
+tempEmp.getEmployeeDetails()
+tempEmp.getstipend()
+
+class InternEmployee(TempEmployee):
+    duration = 6 
+
+    def getdurationMonth(self):
+        print(f"durationMonth :{self.durationMonth}")
+
+objIntern =InternEmployee()
+objIntern.getEmployeeDetails()
+objIntern.getstipend()
+# objIntern.getdurationMonth()
+
+# =---------------------------------------------------------------------------------------
