@@ -62,11 +62,31 @@
 # ===============================================================================
 #list to tuple conversion?
  
-# list = [2,4,6,10,12]
+list = [2,4,6,10,12]
 
-# # list to tuple conversion
-# list_to_tuple = tuple(list)
-# print(list)
-# print(list_to_tuple)
+# list to tuple conversion
+list_to_tuple = tuple(list)
+print(list)
+print(list_to_tuple)
 
 # =========================================================================
+
+#  write a python program in whichhow many time characters?
+# str1 = 'aaaabbbccz'
+output =""
+
+char = str1[0]
+count = 0
+
+for ch in str1:
+    if ch == char:
+        count = count + 1 
+    else:
+        output = output+str(count)+char
+        count =1
+        char =ch
+
+    output = output+str(count)+char
+
+
+#============================================================================================

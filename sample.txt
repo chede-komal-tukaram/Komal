@@ -1,1 +1,5 @@
-we are now expert in python....we are now expert in python...we are now expert in python...
+File Reading Operations
+go to file path  or folder and locate file with file name
+open file
+Read content/write content to file.
+copy content you got from file and use it file close
