@@ -1,5 +1,5 @@
 # class creation 
-class Employee:             #class:- keyword to definne class, Employee :- class name, ir=t can be anything and first char of each word has to be capital
+class Employee:             #class:- keyword to definne class, Employee :- class name, it can be anything and first char of each word has to be capital
 
     empid = 1001            #attribute
     name = 'komal'            #attribute
