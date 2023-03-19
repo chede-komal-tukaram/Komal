@@ -62,31 +62,43 @@
 # ===============================================================================
 #list to tuple conversion?
  
-list = [2,4,6,10,12]
+# list = [2,4,6,10,12]
 
-# list to tuple conversion
-list_to_tuple = tuple(list)
-print(list)
-print(list_to_tuple)
+# # list to tuple conversion
+# list_to_tuple = tuple(list)
+# print(list)
+# print(list_to_tuple)
 
+
+tuple = (1,2,3,4,5,6,7)
+
+tuple_to_list =list(tuple)
+print(tuple)
+print(tuple_to_list)
 # =========================================================================
 
 #  write a python program in whichhow many time characters?
 # str1 = 'aaaabbbccz'
-output =""
+# output =""
 
-char = str1[0]
-count = 0
+# char = str1[0]
+# count = 0
 
-for ch in str1:
-    if ch == char:
-        count = count + 1 
-    else:
-        output = output+str(count)+char
-        count =1
-        char =ch
+# for ch in str1:
+#     if ch == char:
+#         count = count + 1 
+#     else:
+#         output = output+str(count)+char
+#         count =1
+#         char =ch
 
-    output = output+str(count)+char
+#     output = output+str(count)+char
 
 
 #============================================================================================
+#   in the maharastra word  how many times a ?
+
+# name ='Maharastra'
+# print(name.count('a'))   #4
+
+##================================================================================================
